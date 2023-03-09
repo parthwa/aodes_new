@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Robinson InLine Oblique';
+    src: url('RobinsonInLineOblique.eot');
+    src: url('RobinsonInLineOblique.eot?#iefix') format('embedded-opentype'),
+        url('RobinsonInLineOblique.woff2') format('woff2'),
+        url('RobinsonInLineOblique.woff') format('woff'),
+        url('RobinsonInLineOblique.ttf') format('truetype'),
+        url('RobinsonInLineOblique.svg#RobinsonInLineOblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

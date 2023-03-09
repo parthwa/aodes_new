@@ -1,0 +1,20 @@
+.brator-service-area.style-two {
+  padding: 70px 0;
+}
+.brator-service-area.style-two .row {
+  border-width: 1px;
+  border-color: rgb(204, 204, 204);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(242, 243, 248);
+}
+.brator-service-area.style-two .brator-single-service-item {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.brator-service-area.style-two .brator-single-service-item .iocn {
+  top: 35px;
+}
+.brator-service-area.style-two .brator-single-service-item p {
+  margin-bottom: 0;
+}

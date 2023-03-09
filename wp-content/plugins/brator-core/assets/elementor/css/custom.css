@@ -1,0 +1,31 @@
+
+
+
+/* .vehicle-list-wapper span.select2.select2-container.loading {
+    position: relative;
+}
+.vehicle-list-wapper span.select2.select2-container.loading:after {
+    position: absolute;
+    left: 14px;
+    top: 8px;
+    content: "";
+    background-image: url(../../images/ajax-loader.gif);
+    width: 33px;
+    height: 33px;
+    background-repeat: no-repeat;
+} */
+
+
+.brator-parts-search-box-area span.select2.select2-container.loading {
+    position: relative;
+}
+.brator-parts-search-box-area span.select2.select2-container.loading:after {
+    position: absolute;
+    left: 14px;
+    top: 8px;
+    content: "";
+    background-image: url(../../images/ajax-loader.gif);
+    width: 33px;
+    height: 33px;
+    background-repeat: no-repeat;
+}

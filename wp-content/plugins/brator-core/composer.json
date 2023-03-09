@@ -1,0 +1,14 @@
+{
+    "name": "brator/brator-core",
+    "description": "A plugin for brator WordPress Theme",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Brator\\Helper\\": "includes/"
+        },
+        "files": [ "includes/functions.php" ]
+    }
+}

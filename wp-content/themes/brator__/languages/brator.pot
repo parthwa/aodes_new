@@ -1,0 +1,2328 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: brator\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-08 11:11+0600\n"
+"PO-Revision-Date: 2018-07-18 10:21+0600\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: SmartDataSoft <support@smartdatasoft.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;esc_html_e;esc_attr_e;"
+"esc_html__\n"
+"X-Poedit-Basepath: /Users/oo/Sites/localhost/wp-themes/brator/wp-content/themes/"
+"brator\n"
+"Last-Translator: \n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:20
+msgid "404"
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"We’re unable to find a page you are looking for, Try later or click the button."
+msgstr ""
+
+#: 404.php:22
+msgid "Back to Home"
+msgstr ""
+
+#: archive.php:57 search.php:47 template-parts/blog-layout/blog-grid.php:100
+#: template-parts/blog-layout/blog-standard.php:41 woocommerce-functions.php:235
+msgid "Prev"
+msgstr ""
+
+#: archive.php:58 search.php:48 template-parts/blog-layout/blog-grid.php:101
+#: template-parts/blog-layout/blog-standard.php:42 woocommerce-functions.php:236
+msgid "Next"
+msgstr ""
+
+#: comments.php:37
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:90
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:91
+#, php-format
+msgid "Leave a Comment to %s"
+msgstr ""
+
+#: comments.php:92
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:96
+msgid "Submit Comment"
+msgstr ""
+
+#: comments.php:101
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:102
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"%4$s\">Log out?</"
+"a>"
+msgstr ""
+
+#: components/footer/footer-1.php:21 components/footer/footer-3.php:21
+msgid "&copy; 2022 Copyrights by Brator Inc. All Rights Reserved."
+msgstr ""
+
+#: components/footer/footer-2.php:14
+msgid "&copy; 2021 Copyrights by Brator Inc. All Rights Reserved."
+msgstr ""
+
+#: components/header/header-style/header-style-1.php:118
+#: components/header/header-style/header-style-2.php:116
+#: components/header/header-style/header-style-3.php:113
+msgid "Cart"
+msgstr ""
+
+#: components/header/header-style/header-style-1.php:122
+#: components/header/header-style/header-style-2.php:120
+#: components/header/header-style/header-style-3.php:117 woo-action-single.php:698
+#: woocommerce-functions.php:492
+msgid " item"
+msgstr ""
+
+#: components/header/header-style/header-style-1.php:124
+#: components/header/header-style/header-style-2.php:122
+#: components/header/header-style/header-style-3.php:119 woo-action-single.php:700
+#: woocommerce-functions.php:494
+msgid " items"
+msgstr ""
+
+#: components/header/header-style/header-style-2.php:62
+msgid "All"
+msgstr ""
+
+#: components/header/header-style/header-style-2.php:162
+msgid "All Categories"
+msgstr ""
+
+#: framework/--dashboard/admin/activation.php:8
+#: framework/dashboard/admin/activation.php:19
+msgid "Theme License Options"
+msgstr ""
+
+#: framework/--dashboard/admin/activation.php:10
+#: framework/dashboard/admin/activation.php:22
+msgid ""
+"First enter your license key in the below field  and click the button \"Save "
+"Changes\". After saving \"Activate License\" Button will be visible."
+msgstr ""
+
+#: framework/--dashboard/admin/activation.php:11
+#: framework/dashboard/admin/activation.php:23
+msgid "Then click \"Activate License\" button for active theme."
+msgstr ""
+
+#: framework/--dashboard/admin/activation.php:19
+msgid "Your Email"
+msgstr ""
+
+#: framework/--dashboard/admin/activation.php:23
+msgid ""
+"We will send update news of this product by this email address. Don't worry, we "
+"hate spam"
+msgstr ""
+
+#: framework/--dashboard/admin/activation.php:28
+msgid "License Key"
+msgstr ""
+
+#: framework/--dashboard/admin/activation.php:55
+#: framework/--dashboard/admin/activation.php:65
+#: framework/dashboard/admin/activation.php:40
+msgid "Activate License"
+msgstr ""
+
+#: framework/--dashboard/admin/activation.php:60
+#: framework/dashboard/admin/activation.php:51
+msgid "Deactivate License"
+msgstr ""
+
+#: framework/--dashboard/admin/demo-content-install.php:3
+#: framework/dashboard/admin/demo-content-install.php:3
+msgid "You need to Install and Active Demo Importer Plugin For Demo Import."
+msgstr ""
+
+#: framework/--dashboard/admin/getting-started.php:12
+#: framework/dashboard/admin/getting-started.php:12
+msgid "Implement Recommended Actions"
+msgstr ""
+
+#: framework/--dashboard/admin/getting-started.php:15
+#: framework/dashboard/admin/getting-started.php:15
+#, php-format
+msgid ""
+"Thank you so much for your purchase of SmartDataSoft's %1$s theme! %2$s theme is "
+"designed for you with different layouts, one-click demo installation, wonderful "
+"and unique designs, amazing content blocks, get the price section, SEO friendly, "
+"Sticky menu, WooCommerce and lots more. Enjoy!"
+msgstr ""
+
+#: framework/--dashboard/admin/getting-started.php:19
+#: framework/dashboard/admin/getting-started.php:19
+msgid ""
+"If you’d like to get support from our team please open up a support ticket at "
+"first. Our support engineers are always ready to get back to you ASAP."
+msgstr ""
+
+#: framework/--dashboard/admin/getting-started.php:23
+#: framework/dashboard/admin/getting-started.php:23
+msgid "screenshot"
+msgstr ""
+
+#: framework/--dashboard/admin/plugin.php:28 framework/dashboard/admin/plugin.php:28
+msgid "Recommended Plugins"
+msgstr ""
+
+#: framework/--dashboard/admin/support.php:3
+#, php-format
+msgid ""
+"%1$s provides free support for 6 months for every LICENSE you purchase. You are "
+"also able to extend support through subscriptions via ThemeForest. \n"
+"              Our support center will handle all supports from our company "
+"website. Follow these steps to get access to your support. \n"
+"              %2$s community are given below. You are also able to extend support "
+"through subscriptions via ThemeForest . Our support center will handle all "
+"supports from our company website .\n"
+"\t\t\t\t\tFollow these steps to get access to your support . % s community are "
+"given below . "
+msgstr ""
+
+#: framework/--dashboard/admin/support.php:19
+#: framework/dashboard/admin/support.php:21
+msgid ""
+"Please remember ! Our support time is Monday to Friday 8.00AM to 05.00PM( GMT 6 "
+"+ ) . We're very grateful for your patience during the off days."
+msgstr ""
+
+#: framework/--dashboard/admin/support.php:28
+#: framework/dashboard/admin/support.php:30
+msgid "Submit A Ticket"
+msgstr ""
+
+#: framework/--dashboard/admin/support.php:29
+#: framework/dashboard/admin/support.php:31
+msgid ""
+"Register your purchase first and get access to our support service and other "
+"resources to let us provide you our excellent support."
+msgstr ""
+
+#: framework/--dashboard/admin/support.php:30
+#: framework/dashboard/admin/support.php:32
+msgid "Submit a ticket"
+msgstr ""
+
+#: framework/--dashboard/admin/support.php:32
+#: framework/--dashboard/admin/support.php:34
+#: framework/dashboard/admin/support.php:34 framework/dashboard/admin/support.php:36
+msgid "Documentation"
+msgstr ""
+
+#: framework/--dashboard/admin/support.php:33
+#: framework/dashboard/admin/support.php:35
+msgid ""
+"If you want to get the whole ball of wax of our theme, this is the place for you "
+"to check. It has an incredible reserve of information for different aspects of "
+"life."
+msgstr ""
+
+#: framework/--dashboard/admin/support.php:36
+#: framework/--dashboard/admin/support.php:39
+#: framework/dashboard/admin/support.php:38 framework/dashboard/admin/support.php:41
+msgid "Video Tutorials"
+msgstr ""
+
+#: framework/--dashboard/admin/support.php:37
+#: framework/dashboard/admin/support.php:39
+msgid ""
+"Video tutorials are one of the best ways to learn something, right? We provide "
+"tutorials in our youtube channel. Subscribe and get access to a library of high "
+"definition, easily narrated video tutorials. Dont forget to click the bell button "
+"to get notified every time we upload a video."
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:150
+#: framework/dashboard/admin/system-status.php:147
+msgid ""
+"Please copy and paste this information in your ticket when contacting support:"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:153
+#: framework/dashboard/admin/system-status.php:150
+msgid "Get system report"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:160
+#: framework/dashboard/admin/system-status.php:157
+msgid "Copy for support"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:164
+#: framework/dashboard/admin/system-status.php:161
+msgid "Copying to clipboard failed. Please press Ctrl/Cmd+C to copy."
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:172
+#: framework/dashboard/admin/system-status.php:169
+msgid "WordPress environment"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:178
+#: framework/dashboard/admin/system-status.php:175
+msgid "Home URL"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:185
+#: framework/dashboard/admin/system-status.php:182
+msgid "Site URL"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:192
+#: framework/dashboard/admin/system-status.php:189
+msgid "Theme version"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:200
+#: framework/dashboard/admin/system-status.php:197
+msgid "WordPress version"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:222
+#: framework/dashboard/admin/system-status.php:219
+#, php-format
+msgid "%1$s - There is a newer version of WordPress available (%2$s)"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:230
+#: framework/dashboard/admin/system-status.php:227
+msgid "WordPress multisite"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:237
+#: framework/--dashboard/admin/system-status.php:411
+#: framework/--dashboard/class-brator-dashboard.php:172
+#: framework/--dashboard/class-brator-dashboard.php:390
+#: framework/--dashboard/class-brator-dashboard.php:394
+#: framework/dashboard/admin/system-status.php:234
+#: framework/dashboard/admin/system-status.php:408
+#: framework/dashboard/class-dashboard.php:374
+#: framework/dashboard/class-dashboard.php:623
+#: framework/dashboard/class-dashboard.php:627 woocommerce/cart/mini-cart.php:45
+#: woocommerce/cart/mini-cart.php:51
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:242
+#: framework/dashboard/admin/system-status.php:239
+msgid "WordPress memory limit"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:249
+#: framework/dashboard/admin/system-status.php:246
+#, php-format
+msgid "%1$s - We recommend setting memory to at least 64MB. See: %2$s"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:249
+#: framework/dashboard/admin/system-status.php:246
+msgid "Increasing memory allocated to PHP"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:257
+#: framework/dashboard/admin/system-status.php:254
+msgid "WordPress debug mode"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:270
+#: framework/dashboard/admin/system-status.php:267
+msgid "WordPress cron"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:283
+#: framework/dashboard/admin/system-status.php:280
+msgid "Language"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:290
+#: framework/dashboard/admin/system-status.php:287
+msgid "External object cache"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:308
+#: framework/dashboard/admin/system-status.php:305
+msgid "Server environment"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:315
+#: framework/dashboard/admin/system-status.php:312
+msgid "PHP version"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:324
+#: framework/dashboard/admin/system-status.php:321
+msgid "How to update your PHP version"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:328
+#: framework/dashboard/admin/system-status.php:325
+msgid ""
+"WooCommerce will run under this version of PHP, however, some features such as "
+"geolocation are not compatible. Support for this version will be dropped in the "
+"next major release. We recommend using PHP version 7.2 or above for greater "
+"performance and security."
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:330
+#: framework/dashboard/admin/system-status.php:327
+msgid ""
+"WooCommerce will run under this version of PHP, however, it has reached end of "
+"life. We recommend using PHP version 7.2 or above for greater performance and "
+"security."
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:332
+#: framework/dashboard/admin/system-status.php:329
+msgid ""
+"We recommend using PHP version 7.2 or above for greater performance and security."
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:343
+#: framework/dashboard/admin/system-status.php:340
+msgid "PHP post max size"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:351
+#: framework/dashboard/admin/system-status.php:348
+msgid "PHP time limit"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:359
+#: framework/dashboard/admin/system-status.php:356
+msgid "Minimum value is 300. "
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:365
+#: framework/dashboard/admin/system-status.php:362
+msgid "600 is recommanded. "
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:368
+#: framework/dashboard/admin/system-status.php:365
+msgid "Current time limit is sufficient. "
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:375
+#: framework/dashboard/admin/system-status.php:372
+msgid "PHP max input vars"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:382
+#: framework/dashboard/admin/system-status.php:379
+msgid "Minimum value is 1000. "
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:388
+#: framework/dashboard/admin/system-status.php:385
+msgid "2000 is recommanded. "
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:391
+#: framework/dashboard/admin/system-status.php:388
+msgid ""
+"3000 or more may be required if you use lot of plugins use or you have large "
+"amount of menu item."
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:397
+#: framework/dashboard/admin/system-status.php:394
+msgid "cURL version"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:404
+#: framework/dashboard/admin/system-status.php:401
+msgid "SUHOSIN installed"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:423
+#: framework/dashboard/admin/system-status.php:420
+msgid "MySQL version"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:431
+#: framework/dashboard/admin/system-status.php:428
+#, php-format
+msgid "%1$s - We recommend a minimum MySQL version of 5.6. See: %2$s"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:431
+#: framework/dashboard/admin/system-status.php:428
+msgid "WordPress requirements"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:440
+#: framework/dashboard/admin/system-status.php:437
+msgid "Max upload size"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:447
+#: framework/dashboard/admin/system-status.php:444
+msgid "Default timezone is UTC"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:455
+#: framework/dashboard/admin/system-status.php:452
+#, php-format
+msgid "Default timezone is %s - it should be UTC"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:463
+#: framework/dashboard/admin/system-status.php:460
+msgid "fsockopen/cURL"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:472
+#: framework/dashboard/admin/system-status.php:469
+msgid ""
+"Your server does not have fsockopen or cURL enabled - PayPal IPN and other scripts "
+"which communicate with other servers will not work. Contact your hosting provider."
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:478
+#: framework/dashboard/admin/system-status.php:475
+msgid "SoapClient"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:487
+#: framework/dashboard/admin/system-status.php:484
+#, php-format
+msgid ""
+"Your server does not have the %s class enabled - some gateway plugins which use "
+"SOAP may not work as expected."
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:493
+#: framework/dashboard/admin/system-status.php:490
+msgid "DOMDocument"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:502
+#: framework/dashboard/admin/system-status.php:499
+#, php-format
+msgid ""
+"Your server does not have the %s class enabled - HTML/Multipart emails, and also "
+"some extensions, will not work without DOMDocument."
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:508
+#: framework/dashboard/admin/system-status.php:505
+msgid "GZip"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:517
+#: framework/dashboard/admin/system-status.php:514
+#, php-format
+msgid ""
+"Your server does not support the %s function - this is required to use the GeoIP "
+"database from MaxMind."
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:523
+#: framework/dashboard/admin/system-status.php:520
+msgid "Multibyte string"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:532
+#: framework/dashboard/admin/system-status.php:529
+#, php-format
+msgid ""
+"Your server does not support the %s functions - this is required for better "
+"character encoding. Some fallbacks will be used instead for it."
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:538
+#: framework/dashboard/admin/system-status.php:535
+msgid "Remote post"
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:547
+#: framework/--dashboard/admin/system-status.php:562
+#: framework/dashboard/admin/system-status.php:544
+#: framework/dashboard/admin/system-status.php:559
+#, php-format
+msgid "%s failed. Contact your hosting provider."
+msgstr ""
+
+#: framework/--dashboard/admin/system-status.php:553
+#: framework/dashboard/admin/system-status.php:550
+msgid "Remote get"
+msgstr ""
+
+#: framework/--dashboard/admin/wellcome.php:1
+#: framework/dashboard/admin/wellcome.php:1
+#, php-format
+msgid "Welcome to %1$s"
+msgstr ""
+
+#: framework/--dashboard/admin/wellcome.php:5
+#: framework/dashboard/admin/wellcome.php:5
+#, php-format
+msgid ""
+"Thank you so much for using %1$s Theme! Please <a href=\"?page=%2$sproduct-"
+"registration\">activate your product</a> to get updates, to get demo content, "
+"automatic plugins updates and theme support. Check out the support tab to learn "
+"more about our support. We hope you enjoy it!"
+msgstr ""
+
+#: framework/--dashboard/class-brator-dashboard.php:117
+#: framework/dashboard/class-dashboard.php:238
+#, php-format
+msgid ""
+"To receive automatic updates license activation is required. Please visit <a href="
+"\"%s\">Setting</a> page."
+msgstr ""
+
+#: framework/--dashboard/class-brator-dashboard.php:164
+#: framework/dashboard/class-dashboard.php:366
+msgid "License Activated"
+msgstr ""
+
+#: framework/--dashboard/class-brator-dashboard.php:168
+#: framework/dashboard/class-dashboard.php:370
+msgid "License Deactiveted"
+msgstr ""
+
+#: framework/--dashboard/class-brator-dashboard.php:181
+#: framework/dashboard/class-dashboard.php:383
+msgid "License Key saved"
+msgstr ""
+
+#: framework/--dashboard/class-brator-dashboard.php:185
+#: framework/dashboard/class-dashboard.php:387
+msgid "License Key blank"
+msgstr ""
+
+#: framework/--dashboard/class-brator-dashboard.php:283
+#: framework/dashboard/class-dashboard.php:491
+msgid "Require Activation"
+msgstr ""
+
+#: framework/--dashboard/class-brator-dashboard.php:283
+#: framework/dashboard/class-dashboard.php:491
+#, php-format
+msgid ""
+"%1$s Theme Need to active with purchase code. Otherwise you can't Active / Update "
+"Bundle Plugin. You can active from <a href='%2$s'>Here</a>."
+msgstr ""
+
+#: framework/--dashboard/class-brator-dashboard.php:284
+#: framework/dashboard/class-dashboard.php:492
+msgid "Dismiss this notice."
+msgstr ""
+
+#: framework/--dashboard/class-brator-dashboard.php:320
+#: framework/dashboard/class-dashboard.php:546
+msgid "Copied!"
+msgstr ""
+
+#: framework/--dashboard/class-brator-dashboard.php:346
+#: framework/dashboard/class-dashboard.php:579
+msgid "Getting Started"
+msgstr ""
+
+#: framework/--dashboard/class-brator-dashboard.php:350
+#: framework/dashboard/class-dashboard.php:583
+msgid "Registration"
+msgstr ""
+
+#: framework/--dashboard/class-brator-dashboard.php:354
+#: framework/dashboard/class-dashboard.php:587
+msgid "System Status"
+msgstr ""
+
+#: framework/--dashboard/class-brator-dashboard.php:358
+#: framework/dashboard/class-dashboard.php:591
+msgid "Plugins"
+msgstr ""
+
+#: framework/--dashboard/class-brator-dashboard.php:365
+#: framework/--dashboard/class-brator-dashboard.php:370
+#: framework/dashboard/class-dashboard.php:598
+#: framework/dashboard/class-dashboard.php:603
+msgid "Demo Import"
+msgstr ""
+
+#: framework/--dashboard/class-brator-dashboard.php:376
+#: framework/dashboard/class-dashboard.php:609
+msgid "Icon Add"
+msgstr ""
+
+#: framework/--dashboard/class-brator-dashboard.php:381
+#: framework/dashboard/class-dashboard.php:614
+msgid "Support"
+msgstr ""
+
+#: framework/classes/brator-int.php:16 framework/classes/brator-int.php:46
+#: framework/classes/brator-int.php:58
+msgid "Logo"
+msgstr ""
+
+#: framework/classes/brator-int.php:32
+msgid "top"
+msgstr ""
+
+#: framework/classes/brator-int.php:132
+msgid "Error Page"
+msgstr ""
+
+#: framework/classes/brator-int.php:136
+msgid "Search Results for: "
+msgstr ""
+
+#: framework/classes/brator-int.php:139
+msgid "Nothing Found"
+msgstr ""
+
+#: framework/classes/brator-int.php:174 woocommerce-functions.php:385
+msgid "Page Title BG"
+msgstr ""
+
+#: framework/classes/brator-int.php:408
+msgid "Related Posts"
+msgstr ""
+
+#: framework/classes/brator-int.php:530
+msgid "Related Products"
+msgstr ""
+
+#: framework/classes/brator-int.php:576
+msgid "Guide & Blog"
+msgstr ""
+
+#: framework/dashboard/admin/activation.php:44
+msgid "Activate License Envato"
+msgstr ""
+
+#: framework/dashboard/admin/activation.php:55
+msgid "Deactivate License Envato"
+msgstr ""
+
+#: framework/dashboard/admin/activation.php:57
+msgid "Manage Your License"
+msgstr ""
+
+#: framework/dashboard/admin/support.php:5
+#, php-format
+msgid ""
+"%1$s provides free support for 6 months for every LICENSE you purchase. You are "
+"also able to extend support through subscriptions via ThemeForest. \n"
+"\t\t\t\t\t\t\tOur support center will handle all supports from our company "
+"website. Follow these steps to get access to your support. \n"
+"\t\t\t\t\t\t\t%2$s community are given below. You are also able to extend support "
+"through subscriptions via ThemeForest . Our support center will handle all "
+"supports from our company website .\n"
+"\t\t\t\t\t\t\t\t\tFollow these steps to get access to your support . % s community "
+"are given below . "
+msgstr ""
+
+#: framework/dashboard/class-dashboard.php:95
+#: framework/dashboard/class-dashboard.php:316
+#: framework/dashboard/class-dashboard.php:444
+msgid "HTTP Error"
+msgstr ""
+
+#: framework/dashboard/class-dashboard.php:431
+msgid "Api Key Not Found.."
+msgstr ""
+
+#: framework/dashboard/class-dashboard.php:447
+msgid "Error Found"
+msgstr ""
+
+#: framework/dashboard/class-dashboard.php:507
+msgid ""
+"Our theme license system has been changed, Please active again your theme license"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:8
+#: framework/kirki/new-class-kirki-installer-section.php:8
+msgid "Brator Option"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:16
+#: framework/kirki/new-class-kirki-installer-section.php:16
+msgid "Theme Base Option"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:25
+#: framework/kirki/new-class-kirki-installer-section.php:23
+msgid "Preloader On/Off"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:30
+#: framework/kirki/class-kirki-installer-section.php:45
+#: framework/kirki/class-kirki-installer-section.php:60
+#: framework/kirki/class-kirki-installer-section.php:75
+#: framework/kirki/class-kirki-installer-section.php:210
+#: framework/kirki/class-kirki-installer-section.php:225
+#: framework/kirki/class-kirki-installer-section.php:289
+#: framework/kirki/class-kirki-installer-section.php:325
+#: framework/kirki/class-kirki-installer-section.php:351
+#: framework/kirki/class-kirki-installer-section.php:408
+#: framework/kirki/class-kirki-installer-section.php:467
+#: framework/kirki/class-kirki-installer-section.php:482
+#: framework/kirki/class-kirki-installer-section.php:497
+#: framework/kirki/class-kirki-installer-section.php:512
+#: framework/kirki/class-kirki-installer-section.php:527
+#: framework/kirki/class-kirki-installer-section.php:717
+#: framework/kirki/class-kirki-installer-section.php:732
+#: framework/kirki/class-kirki-installer-section.php:764
+#: framework/kirki/class-kirki-installer-section.php:786
+#: framework/kirki/class-kirki-installer-section.php:801
+#: framework/kirki/class-kirki-installer-section.php:824
+#: framework/kirki/new-class-kirki-installer-section.php:28
+#: framework/kirki/new-class-kirki-installer-section.php:41
+#: framework/kirki/new-class-kirki-installer-section.php:54
+#: framework/kirki/new-class-kirki-installer-section.php:67
+#: framework/kirki/new-class-kirki-installer-section.php:183
+#: framework/kirki/new-class-kirki-installer-section.php:196
+#: framework/kirki/new-class-kirki-installer-section.php:252
+#: framework/kirki/new-class-kirki-installer-section.php:284
+#: framework/kirki/new-class-kirki-installer-section.php:307
+#: framework/kirki/new-class-kirki-installer-section.php:358
+#: framework/kirki/new-class-kirki-installer-section.php:407
+#: framework/kirki/new-class-kirki-installer-section.php:420
+#: framework/kirki/new-class-kirki-installer-section.php:433
+#: framework/kirki/new-class-kirki-installer-section.php:446
+#: framework/kirki/new-class-kirki-installer-section.php:459
+#: framework/kirki/new-class-kirki-installer-section.php:628
+#: framework/kirki/new-class-kirki-installer-section.php:641
+#: framework/kirki/new-class-kirki-installer-section.php:669
+#: framework/kirki/new-class-kirki-installer-section.php:691
+msgid "Enable"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:31
+#: framework/kirki/class-kirki-installer-section.php:46
+#: framework/kirki/class-kirki-installer-section.php:61
+#: framework/kirki/class-kirki-installer-section.php:76
+#: framework/kirki/class-kirki-installer-section.php:211
+#: framework/kirki/class-kirki-installer-section.php:226
+#: framework/kirki/class-kirki-installer-section.php:290
+#: framework/kirki/class-kirki-installer-section.php:326
+#: framework/kirki/class-kirki-installer-section.php:352
+#: framework/kirki/class-kirki-installer-section.php:409
+#: framework/kirki/class-kirki-installer-section.php:468
+#: framework/kirki/class-kirki-installer-section.php:483
+#: framework/kirki/class-kirki-installer-section.php:498
+#: framework/kirki/class-kirki-installer-section.php:513
+#: framework/kirki/class-kirki-installer-section.php:528
+#: framework/kirki/class-kirki-installer-section.php:718
+#: framework/kirki/class-kirki-installer-section.php:733
+#: framework/kirki/class-kirki-installer-section.php:765
+#: framework/kirki/class-kirki-installer-section.php:787
+#: framework/kirki/class-kirki-installer-section.php:802
+#: framework/kirki/class-kirki-installer-section.php:825
+#: framework/kirki/new-class-kirki-installer-section.php:29
+#: framework/kirki/new-class-kirki-installer-section.php:42
+#: framework/kirki/new-class-kirki-installer-section.php:55
+#: framework/kirki/new-class-kirki-installer-section.php:68
+#: framework/kirki/new-class-kirki-installer-section.php:184
+#: framework/kirki/new-class-kirki-installer-section.php:197
+#: framework/kirki/new-class-kirki-installer-section.php:253
+#: framework/kirki/new-class-kirki-installer-section.php:285
+#: framework/kirki/new-class-kirki-installer-section.php:308
+#: framework/kirki/new-class-kirki-installer-section.php:359
+#: framework/kirki/new-class-kirki-installer-section.php:408
+#: framework/kirki/new-class-kirki-installer-section.php:421
+#: framework/kirki/new-class-kirki-installer-section.php:434
+#: framework/kirki/new-class-kirki-installer-section.php:447
+#: framework/kirki/new-class-kirki-installer-section.php:460
+#: framework/kirki/new-class-kirki-installer-section.php:629
+#: framework/kirki/new-class-kirki-installer-section.php:642
+#: framework/kirki/new-class-kirki-installer-section.php:670
+#: framework/kirki/new-class-kirki-installer-section.php:692
+msgid "Disable"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:40
+#: framework/kirki/new-class-kirki-installer-section.php:36
+msgid "Sticky Header On/Off"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:55
+#: framework/kirki/new-class-kirki-installer-section.php:49
+msgid "Back To Top On/Off"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:70
+#: framework/kirki/new-class-kirki-installer-section.php:62
+msgid "Theme base css On/Off"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:88
+#: framework/kirki/new-class-kirki-installer-section.php:80
+msgid "Header Section"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:99
+#: framework/kirki/new-class-kirki-installer-section.php:88
+msgid "Header Style"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:101
+#: framework/kirki/class-kirki-installer-section.php:388
+#: framework/kirki/class-kirki-installer-section.php:547
+#: framework/kirki/new-class-kirki-installer-section.php:90
+#: framework/kirki/new-class-kirki-installer-section.php:340
+#: framework/kirki/new-class-kirki-installer-section.php:477
+msgid "Select an style"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:105
+#: framework/kirki/class-kirki-installer-section.php:392
+#: framework/kirki/class-kirki-installer-section.php:551
+#: framework/kirki/new-class-kirki-installer-section.php:94
+#: framework/kirki/new-class-kirki-installer-section.php:344
+#: framework/kirki/new-class-kirki-installer-section.php:481
+msgid "Style One"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:106
+#: framework/kirki/class-kirki-installer-section.php:393
+#: framework/kirki/class-kirki-installer-section.php:552
+#: framework/kirki/new-class-kirki-installer-section.php:95
+#: framework/kirki/new-class-kirki-installer-section.php:345
+#: framework/kirki/new-class-kirki-installer-section.php:482
+msgid "Style Two"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:107
+#: framework/kirki/class-kirki-installer-section.php:553
+#: framework/kirki/new-class-kirki-installer-section.php:96
+#: framework/kirki/new-class-kirki-installer-section.php:483
+msgid "Style Three"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:118
+#: framework/kirki/new-class-kirki-installer-section.php:105
+msgid "Welcome Text Top"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:128
+#: framework/kirki/new-class-kirki-installer-section.php:113
+msgid "Right Content Top"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:141
+#: framework/kirki/new-class-kirki-installer-section.php:122
+msgid "Phone Title"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:143
+#: framework/kirki/new-class-kirki-installer-section.php:124
+msgid "24/7 Support:"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:152
+#: framework/kirki/new-class-kirki-installer-section.php:132
+msgid "Phone"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:154
+#: framework/kirki/new-class-kirki-installer-section.php:134
+msgid "1800 500 1234"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:163
+#: framework/kirki/new-class-kirki-installer-section.php:142
+msgid "Header Order Track"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:165
+#: framework/kirki/new-class-kirki-installer-section.php:144
+msgid "Track Order"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:174
+#: framework/kirki/new-class-kirki-installer-section.php:151
+msgid "Header Order Track URL"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:184
+#: framework/kirki/new-class-kirki-installer-section.php:160
+msgid "Header Recently Viewed"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:186
+#: framework/kirki/new-class-kirki-installer-section.php:162
+msgid "Recently Viewed"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:195
+#: framework/kirki/new-class-kirki-installer-section.php:170
+msgid "Header Recently Viewed URL"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:205
+#: framework/kirki/new-class-kirki-installer-section.php:178
+msgid "Header Sidebar"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:220
+#: framework/kirki/new-class-kirki-installer-section.php:191
+msgid "Header Search"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:235
+#: framework/kirki/new-class-kirki-installer-section.php:205
+msgid "Header Quick Search Title"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:238
+#: framework/kirki/new-class-kirki-installer-section.php:208
+msgid "QUICK SEARCH"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:246
+#: framework/kirki/new-class-kirki-installer-section.php:214
+msgid "Header Quick Search"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:258
+#: framework/kirki/new-class-kirki-installer-section.php:224
+msgid "Header Search By"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:262
+#: framework/kirki/new-class-kirki-installer-section.php:228
+msgid "Search by Product Name"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:263
+#: framework/kirki/new-class-kirki-installer-section.php:229
+msgid "Search by Product Sku"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:264
+#: framework/kirki/new-class-kirki-installer-section.php:230
+msgid "Search by Brand, Model, Year, Engine"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:273
+#: framework/kirki/new-class-kirki-installer-section.php:238
+msgid "Header Search Placeholder"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:276
+#: framework/kirki/new-class-kirki-installer-section.php:241
+msgid "Search by Part Name ..."
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:284
+#: framework/kirki/new-class-kirki-installer-section.php:247
+msgid "Header Vehicle On/Off"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:299
+#: framework/kirki/new-class-kirki-installer-section.php:261
+msgid "Header Vehicle Text"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:301
+#: framework/kirki/new-class-kirki-installer-section.php:263
+msgid "Add Vehicle"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:310
+#: framework/kirki/new-class-kirki-installer-section.php:271
+msgid "Header Wishlist URL"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:320
+#: framework/kirki/new-class-kirki-installer-section.php:279
+msgid "Header User On/Off"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:335
+#: framework/kirki/new-class-kirki-installer-section.php:293
+msgid "Header User Text"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:337
+#: framework/kirki/new-class-kirki-installer-section.php:295
+msgid "Sign In"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:346
+#: framework/kirki/new-class-kirki-installer-section.php:302
+msgid "Header Cart On/Off"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:359
+#: framework/kirki/new-class-kirki-installer-section.php:315
+msgid "Breadcrumb Section"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:368
+#: framework/kirki/new-class-kirki-installer-section.php:323
+msgid "Breadcrumb BG"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:377
+#: framework/kirki/new-class-kirki-installer-section.php:331
+msgid "Blog Section"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:386
+#: framework/kirki/new-class-kirki-installer-section.php:338
+msgid "Blog Style"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:403
+#: framework/kirki/new-class-kirki-installer-section.php:353
+msgid "Breadcrumb On/Off"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:418
+#: framework/kirki/new-class-kirki-installer-section.php:366
+msgid "Blog List Top"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:430
+#: framework/kirki/new-class-kirki-installer-section.php:376
+msgid "Blog Grid Heading"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:432
+#: framework/kirki/new-class-kirki-installer-section.php:378
+msgid "Guides & Articles"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:441
+#: framework/kirki/new-class-kirki-installer-section.php:385
+msgid "Blog Subheading"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:443
+#: framework/kirki/new-class-kirki-installer-section.php:387
+msgid ""
+"A Gara for you to find more about all guides related to car, read, discuss & share "
+"with community tips & exerpeice about vehicle"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:452
+#: framework/kirki/new-class-kirki-installer-section.php:394
+msgid "Blog Single Title"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:462
+#: framework/kirki/new-class-kirki-installer-section.php:402
+msgid "Author Box On/Off"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:477
+#: framework/kirki/new-class-kirki-installer-section.php:415
+msgid "Post Navigation On/Off"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:492
+#: framework/kirki/new-class-kirki-installer-section.php:428
+msgid "Related Post On/Off"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:507
+#: framework/kirki/new-class-kirki-installer-section.php:441
+msgid "Related Product On/Off"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:522
+#: framework/kirki/new-class-kirki-installer-section.php:454
+msgid "Post Social Share On/Off"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:536
+#: framework/kirki/new-class-kirki-installer-section.php:468
+msgid "Footer Section"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:545
+#: framework/kirki/new-class-kirki-installer-section.php:475
+msgid "Footer Style"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:563
+#: framework/kirki/new-class-kirki-installer-section.php:491
+msgid "Footer Template"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:565
+#: framework/kirki/new-class-kirki-installer-section.php:493
+msgid "Select an Elementor Template"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:576
+#: framework/kirki/new-class-kirki-installer-section.php:502
+msgid "Footer"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:586
+#: framework/kirki/new-class-kirki-installer-section.php:511
+msgid "Payment Title"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:588
+#: framework/kirki/new-class-kirki-installer-section.php:513
+msgid "Payment Methods"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:596
+#: framework/kirki/new-class-kirki-installer-section.php:521
+msgid "Payment Icons"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:601
+#: framework/kirki/new-class-kirki-installer-section.php:526
+msgid "Icon"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:603
+#: framework/kirki/new-class-kirki-installer-section.php:528
+msgid "\"Add new\"(optional) "
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:608
+#: framework/kirki/new-class-kirki-installer-section.php:533
+msgid "Image"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:613
+#: framework/kirki/new-class-kirki-installer-section.php:538
+msgid "URL"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:625
+#: framework/kirki/new-class-kirki-installer-section.php:549
+msgid "Social Title"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:627
+#: framework/kirki/new-class-kirki-installer-section.php:551
+msgid "Follow Us"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:636
+#: framework/kirki/new-class-kirki-installer-section.php:558
+msgid "Twitter URL"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:646
+#: framework/kirki/new-class-kirki-installer-section.php:566
+msgid "Facebook URL"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:656
+#: framework/kirki/new-class-kirki-installer-section.php:574
+msgid "Youtube URL"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:666
+#: framework/kirki/new-class-kirki-installer-section.php:582
+msgid "Instagram URL"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:675
+#: framework/kirki/new-class-kirki-installer-section.php:592
+msgid "Woocommerce Section"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:684
+#: framework/kirki/new-class-kirki-installer-section.php:599
+msgid "Shop Grid/List Layout"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:689
+#: framework/kirki/new-class-kirki-installer-section.php:604
+msgid "Grid Layout"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:690
+#: framework/kirki/new-class-kirki-installer-section.php:605
+msgid "List Layout"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:700
+#: framework/kirki/new-class-kirki-installer-section.php:613
+msgid "Cart Page Template"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:712
+#: framework/kirki/new-class-kirki-installer-section.php:623
+msgid "Best Seller Products in Shop Page"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:727
+#: framework/kirki/new-class-kirki-installer-section.php:636
+msgid "Recently Viewed Products in Shop Page"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:743
+#: framework/kirki/new-class-kirki-installer-section.php:650
+msgid "Product Layout"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:748
+#: framework/kirki/new-class-kirki-installer-section.php:655
+msgid "Layout One"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:749
+#: framework/kirki/new-class-kirki-installer-section.php:656
+msgid "Layout Two"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:759
+#: framework/kirki/new-class-kirki-installer-section.php:664
+msgid "Recently Viewed Products in Product Page"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:772
+msgid "Advanced Search Form"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:781
+msgid "Engine"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:796
+msgid "Fuel Type"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:811
+#: framework/kirki/new-class-kirki-installer-section.php:680
+msgid "Typography"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:820
+#: framework/kirki/new-class-kirki-installer-section.php:687
+msgid "Enable or Disable Typography"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:834
+#: framework/kirki/new-class-kirki-installer-section.php:699
+msgid "Body Typography"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:867
+#: framework/kirki/new-class-kirki-installer-section.php:730
+msgid "H1 Font"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:901
+#: framework/kirki/new-class-kirki-installer-section.php:762
+msgid "H2 Font"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:935
+#: framework/kirki/new-class-kirki-installer-section.php:794
+msgid "H3 Font"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:969
+#: framework/kirki/new-class-kirki-installer-section.php:826
+msgid "H4 Font"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:1003
+#: framework/kirki/new-class-kirki-installer-section.php:858
+msgid "H5 Font"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:1037
+#: framework/kirki/new-class-kirki-installer-section.php:890
+msgid "H6 Font"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:1068
+#: framework/kirki/new-class-kirki-installer-section.php:921
+msgid "Color Option"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:1077
+#: framework/kirki/new-class-kirki-installer-section.php:928
+msgid "Primary Color"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:1087
+#: framework/kirki/new-class-kirki-installer-section.php:936
+msgid "Header 3 Menu BG Color"
+msgstr ""
+
+#: framework/scripts/index.php:22
+msgid "Loading..."
+msgstr ""
+
+#: framework/scripts/index.php:23
+msgid "No Result Found."
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:332
+#: framework/tgm/class-tgm-plugin-activation.php:334 framework/tgm/config-tgm.php:171
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:333
+#: framework/tgm/class-tgm-plugin-activation.php:335 framework/tgm/config-tgm.php:172
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:335
+#: framework/tgm/class-tgm-plugin-activation.php:337 framework/tgm/config-tgm.php:173
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:337
+#: framework/tgm/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:338
+#: framework/tgm/class-tgm-plugin-activation.php:340 framework/tgm/config-tgm.php:174
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:390
+#: framework/tgm/class-tgm-plugin-activation.php:392 framework/tgm/config-tgm.php:185
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:391
+#: framework/tgm/--class-tgm-plugin-activation.php:917
+#: framework/tgm/--class-tgm-plugin-activation.php:2649
+#: framework/tgm/--class-tgm-plugin-activation.php:3737
+#: framework/tgm/class-tgm-plugin-activation.php:393
+#: framework/tgm/class-tgm-plugin-activation.php:919
+#: framework/tgm/class-tgm-plugin-activation.php:2649
+#: framework/tgm/class-tgm-plugin-activation.php:3767
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:392
+#: framework/tgm/--class-tgm-plugin-activation.php:3312
+#: framework/tgm/class-tgm-plugin-activation.php:394
+#: framework/tgm/class-tgm-plugin-activation.php:3333
+#: framework/tgm/config-tgm.php:186
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:393
+#: framework/tgm/class-tgm-plugin-activation.php:395
+msgid "The following plugin was activated successfully."
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:395
+#: framework/tgm/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:397
+#: framework/tgm/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. Please "
+"update the plugin."
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:399
+#: framework/tgm/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:400
+#: framework/tgm/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:401
+#: framework/tgm/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:402
+#: framework/tgm/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:606
+#: framework/tgm/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:1026
+#: framework/tgm/class-tgm-plugin-activation.php:1028
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug and "
+"renaming did not work."
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:1026
+#: framework/tgm/--class-tgm-plugin-activation.php:1036
+#: framework/tgm/class-tgm-plugin-activation.php:1028
+#: framework/tgm/class-tgm-plugin-activation.php:1038
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin according "
+"to the WordPress guidelines."
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:1036
+#: framework/tgm/class-tgm-plugin-activation.php:1038
+msgid ""
+"The remote plugin package consists of more than one file, but the files are not "
+"packaged in a folder."
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2095
+#: framework/tgm/class-tgm-plugin-activation.php:2096
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2389
+#: framework/tgm/class-tgm-plugin-activation.php:2391
+msgid "Required"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2392
+#: framework/tgm/class-tgm-plugin-activation.php:2394
+msgid "Recommended"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2408
+#: framework/tgm/class-tgm-plugin-activation.php:2410
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2411
+#: framework/tgm/class-tgm-plugin-activation.php:2413
+msgid "External Source"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2414
+#: framework/tgm/class-tgm-plugin-activation.php:2416
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2431
+#: framework/tgm/class-tgm-plugin-activation.php:2433
+msgid "Not Installed"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2435
+#: framework/tgm/class-tgm-plugin-activation.php:2437
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2437
+#: framework/tgm/class-tgm-plugin-activation.php:2439
+msgid "Active"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2443
+#: framework/tgm/class-tgm-plugin-activation.php:2445
+msgid "Required Update not Available"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2446
+#: framework/tgm/class-tgm-plugin-activation.php:2447
+msgid "Requires Update"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2449
+#: framework/tgm/class-tgm-plugin-activation.php:2449
+msgid "Update recommended"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2458
+#: framework/tgm/class-tgm-plugin-activation.php:2458
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2508
+#: framework/tgm/class-tgm-plugin-activation.php:2508
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2512
+#: framework/tgm/class-tgm-plugin-activation.php:2512
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2516
+#: framework/tgm/class-tgm-plugin-activation.php:2516
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2598
+#: framework/tgm/class-tgm-plugin-activation.php:2598
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2606
+#: framework/tgm/class-tgm-plugin-activation.php:2606
+msgid "Installed version:"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2614
+#: framework/tgm/class-tgm-plugin-activation.php:2614
+msgid "Minimum required version:"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2626
+#: framework/tgm/class-tgm-plugin-activation.php:2626
+msgid "Available version:"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2649
+#: framework/tgm/class-tgm-plugin-activation.php:2649
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2663
+#: framework/tgm/class-tgm-plugin-activation.php:2663
+msgid "Plugin"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2664
+#: framework/tgm/class-tgm-plugin-activation.php:2664
+msgid "Source"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2665
+#: framework/tgm/class-tgm-plugin-activation.php:2665
+msgid "Type"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2669
+#: framework/tgm/class-tgm-plugin-activation.php:2669
+msgid "Version"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2670
+#: framework/tgm/class-tgm-plugin-activation.php:2670
+msgid "Status"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2717
+#: framework/tgm/class-tgm-plugin-activation.php:2717
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2722
+#: framework/tgm/class-tgm-plugin-activation.php:2722
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2727
+#: framework/tgm/class-tgm-plugin-activation.php:2727
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2739
+#: framework/tgm/--class-tgm-plugin-activation.php:2748
+#: framework/tgm/class-tgm-plugin-activation.php:2739
+#: framework/tgm/class-tgm-plugin-activation.php:2748
+msgid "Need to Active with Purchase Code"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2744
+#: framework/tgm/class-tgm-plugin-activation.php:2744
+msgid "Need to active with Purchase Code"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2837
+#: framework/tgm/class-tgm-plugin-activation.php:2837
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2870
+#: framework/tgm/class-tgm-plugin-activation.php:2869
+msgid "Install"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2876
+#: framework/tgm/class-tgm-plugin-activation.php:2875
+msgid "Update"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2879
+#: framework/tgm/class-tgm-plugin-activation.php:2878
+msgid "Activate"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2910
+#: framework/tgm/class-tgm-plugin-activation.php:2928
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2912
+#: framework/tgm/class-tgm-plugin-activation.php:2930
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2953
+#: framework/tgm/class-tgm-plugin-activation.php:2971
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:2955
+#: framework/tgm/class-tgm-plugin-activation.php:2973
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:3061
+#: framework/tgm/class-tgm-plugin-activation.php:3080
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:3087
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:3105
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:3311
+#: framework/tgm/class-tgm-plugin-activation.php:3332
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:3655
+#: framework/tgm/class-tgm-plugin-activation.php:3684
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:3658
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:3660
+#: framework/tgm/class-tgm-plugin-activation.php:3690
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:3664
+#: framework/tgm/class-tgm-plugin-activation.php:3694
+msgid ""
+"The installation and activation process is starting. This process may take a while "
+"on some hosts, so please be patient."
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:3666
+#: framework/tgm/class-tgm-plugin-activation.php:3696
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:3666
+#: framework/tgm/--class-tgm-plugin-activation.php:3674
+msgid "Show Details"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:3666
+#: framework/tgm/--class-tgm-plugin-activation.php:3674
+msgid "Hide Details"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:3667
+#: framework/tgm/class-tgm-plugin-activation.php:3697
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:3669
+#: framework/tgm/class-tgm-plugin-activation.php:3699
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:3672
+msgid ""
+"The installation process is starting. This process may take a while on some hosts, "
+"so please be patient."
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:3674
+#: framework/tgm/class-tgm-plugin-activation.php:3704
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:3675
+#: framework/tgm/class-tgm-plugin-activation.php:3705
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/tgm/--class-tgm-plugin-activation.php:3677
+#: framework/tgm/class-tgm-plugin-activation.php:3707
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/tgm/class-tgm-plugin-activation.php:2907
+msgid "To "
+msgstr ""
+
+#: framework/tgm/class-tgm-plugin-activation.php:2910
+#, php-format
+msgid " You can Active  Lience from <a href='%s'>Here</a>.<br>"
+msgstr ""
+
+#: framework/tgm/class-tgm-plugin-activation.php:3106
+msgid " No plugins are available to be activated at this time."
+msgstr ""
+
+#: framework/tgm/class-tgm-plugin-activation.php:3124
+msgid " The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgm/class-tgm-plugin-activation.php:3681
+#: framework/tgm/class-tgm-plugin-activation.php:3702
+msgid "<br>"
+msgstr ""
+
+#: framework/tgm/config-tgm.php:83
+msgid "Infinite Notification – Sales Notification Plugin"
+msgstr ""
+
+#: framework/tgm/config-tgm.php:91
+msgid "Elementor"
+msgstr ""
+
+#: framework/tgm/config-tgm.php:99
+msgid "Kirki Customizer Framework"
+msgstr ""
+
+#: framework/tgm/config-tgm.php:107
+msgid "WooCommerce"
+msgstr ""
+
+#: framework/tgm/config-tgm.php:115
+msgid "Meta Box"
+msgstr ""
+
+#: framework/tgm/config-tgm.php:123
+msgid "Contact Form 7"
+msgstr ""
+
+#: framework/tgm/config-tgm.php:131
+msgid "TI WooCommerce Wishlist"
+msgstr ""
+
+#: framework/tgm/config-tgm.php:139
+msgid "Regenerate Thumbnails"
+msgstr ""
+
+#: framework/tgm/config-tgm.php:187
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: functions.php:88
+msgid "Primary"
+msgstr ""
+
+#: functions.php:170
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:172 functions.php:184
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:182
+msgid "Woo Sidebar"
+msgstr ""
+
+#: functions.php:269
+msgid "Select Template"
+msgstr ""
+
+#: inc/bootstrap-walker-menu.php:379
+msgid "Add a menu"
+msgstr ""
+
+#: inc/template-tags.php:42
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:101
+msgid "By"
+msgstr ""
+
+#: inc/template-tags.php:109 inc/template-tags.php:111
+msgid " Comments"
+msgstr ""
+
+#: inc/template-tags.php:113
+msgid " Comment"
+msgstr ""
+
+#: inc/template-tags.php:160 woo-action-single.php:605
+msgid "Reply"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search..."
+msgstr ""
+
+#: template-parts/blog-layout/blog-standard-content-search.php:4
+#: template-parts/blog-layout/blog-standard-content.php:4
+#: template-parts/single/content.php:14
+msgid " Views"
+msgstr ""
+
+#: template-parts/blog-layout/blog-standard-content-search.php:4
+#: template-parts/blog-layout/blog-standard-content.php:4
+#: template-parts/single/content.php:14
+msgid " View"
+msgstr ""
+
+#: template-parts/content-none.php:17
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:28
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some different "
+"keywords."
+msgstr ""
+
+#: template-parts/content-none.php:35
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can "
+"help."
+msgstr ""
+
+#: template-parts/single/content.php:70
+msgid "share"
+msgstr ""
+
+#: woo-action-single.php:95
+msgid "This product fit for your vehicle "
+msgstr ""
+
+#: woo-action-single.php:103
+msgid "This product not fit for your vehicle"
+msgstr ""
+
+#: woo-action-single.php:179
+msgid "This product is fit for your added vehicle."
+msgstr ""
+
+#: woo-action-single.php:242 woo-action-single.php:312 woo-action-single.php:419
+#: woocommerce-functions.php:305 woocommerce/content-product-list.php:30
+#: woocommerce/content-product-slide.php:30 woocommerce/single-product-reviews.php:28
+msgid " Reviews"
+msgstr ""
+
+#: woo-action-single.php:244 woo-action-single.php:314 woo-action-single.php:421
+#: woocommerce-functions.php:307 woocommerce/content-product-list.php:32
+#: woocommerce/content-product-slide.php:32 woocommerce/single-product-reviews.php:30
+msgid " Review"
+msgstr ""
+
+#: woo-action-single.php:374
+msgid "Total:"
+msgstr ""
+
+#: woo-action-single.php:379
+msgid "Discount Total:"
+msgstr ""
+
+#: woo-action-single.php:381
+msgid "Buy these all products together to get "
+msgstr ""
+
+#: woo-action-single.php:381
+msgid " off"
+msgstr ""
+
+#: woo-action-single.php:383
+msgid "Add to cart"
+msgstr ""
+
+#: woo-action-single.php:439 woocommerce/content-product-list.php:47
+#: woocommerce/content-product-slide.php:52
+#, php-format
+msgid "%d%% Off"
+msgstr ""
+
+#: woo-action-single.php:446 woocommerce-functions.php:282
+#: woocommerce/content-product-list.php:54
+msgid "New"
+msgstr ""
+
+#: woo-action-single.php:467
+msgid "In Stock"
+msgstr ""
+
+#: woo-action-single.php:491
+msgid "Categories:"
+msgstr ""
+
+#: woo-action-single.php:499
+msgid "Tags:"
+msgstr ""
+
+#: woo-action-single.php:511
+msgid "SKU:"
+msgstr ""
+
+#: woo-action-single.php:533
+msgid "You May Also Like"
+msgstr ""
+
+#: woo-action-single.php:629
+msgid "on "
+msgstr ""
+
+#: woo-action-single.php:662
+msgid "Guaranteed Safe Checkout"
+msgstr ""
+
+#: woo-action-single.php:662 woo-action-single.php:714
+msgid "Payment Gateway"
+msgstr ""
+
+#: woo-action-single.php:694
+msgid "Order Summary"
+msgstr ""
+
+#: woo-action-single.php:712
+msgid "Accept Payment Methods"
+msgstr ""
+
+#: woo-action-single.php:724
+msgid "Proceed To Checkout"
+msgstr ""
+
+#: woo-action-single.php:771
+msgid "added all products in the cart"
+msgstr ""
+
+#: woocommerce-functions.php:135
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: woocommerce-functions.php:177
+msgid "Sort by"
+msgstr ""
+
+#: woocommerce-functions.php:213
+msgid "fillter"
+msgstr ""
+
+#: woocommerce-functions.php:275
+msgid "Off"
+msgstr ""
+
+#: woocommerce-functions.php:286 woocommerce/content-product-list.php:58
+msgid "Out OF stock"
+msgstr ""
+
+#: woocommerce-functions.php:364
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr ""
+
+#: woocommerce-functions.php:409
+msgid "Shop Title BG"
+msgstr ""
+
+#: woocommerce-functions.php:432
+msgid "Best Seller"
+msgstr ""
+
+#: woocommerce-functions.php:467
+msgid "Product No Found"
+msgstr ""
+
+#: woocommerce-functions.php:623
+msgid "Product Not Found"
+msgstr ""
+
+#: woocommerce/cart/cart.php:24
+msgid "Shopping Cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:33
+msgid "Your Cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:42
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:43 woocommerce/cart/cart.php:101
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:44 woocommerce/cart/cart.php:107
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:45 woocommerce/cart/cart.php:129
+#: woocommerce/checkout/review-order.php:46
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart.php:93
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:97
+msgid "Edit"
+msgstr ""
+
+#: woocommerce/cart/cart.php:141
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:163
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:163
+msgid "Enter Coupon Code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:163
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:170
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:23
+msgid "Forgot Something?"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:118
+msgid "View cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:119
+msgid "Checkout"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:128
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:24
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:27
+msgid "Billing details"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:52
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:33
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:70
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:26
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:34
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. Please "
+"contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:34
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:43
+#, php-format
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please ensure "
+"you click the %1$sUpdate Totals%2$s button before placing your order. You may be "
+"charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:46
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:95
+msgid "Total"
+msgstr ""
+
+#: woocommerce/content-product-list.php:94
+msgid "Included Tax"
+msgstr ""
+
+#: woocommerce/content-product-list.php:96
+msgid "Excluded Tax"
+msgstr ""
+
+#: woocommerce/content-product-slide.php:94
+msgid "sold:"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:29
+msgid "The single result"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:32
+#, php-format
+msgid "<span>Total %d </span>result"
+msgid_plural "<span> Total %d</span>results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/loop/result-count.php:50
+msgid "Show item"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:79
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:90
+msgid "Customer Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:90
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:93
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:98
+msgid "Submit Review "
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:107
+#: woocommerce/single-product-reviews.php:108
+msgid "Your name"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:114
+msgid "Email"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:115
+msgid "E-Mail"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:136
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:140
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:141
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:142
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:143
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:144
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:145
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:146
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:157
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:55
+msgid "Awaiting product image"
+msgstr ""
+
+#: woocommerce/single-product/tabs/additional-information.php:22
+msgid "Additional information"
+msgstr ""

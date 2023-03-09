@@ -1,0 +1,210 @@
+# Copyright (C) 2022 Octolize
+# This file is distributed under the same license as the UPS Live Rates and Access Points plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: UPS Live Rates and Access Points 1.20.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/flexible-shipping-ups\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-10-24T09:03:20+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: flexible-shipping-ups\n"
+
+#. Plugin Name of the plugin
+#: flexible-shipping-ups.php:41
+msgid "UPS Live Rates and Access Points"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/flexible-shipping-ups/"
+msgstr ""
+
+#. Description of the plugin
+#: flexible-shipping-ups.php:42
+msgid "UPS WooCommerce shipping methods with real-time calculated shipping rates based on the established UPS API connection."
+msgstr ""
+
+#. Author of the plugin
+msgid "Octolize"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://octol.io/ups-author"
+msgstr ""
+
+#. Translators: PRO plugin version.
+#: src/Plugin/OldProVersionMessage.php:32
+msgid "\"Flexible Shipping UPS PRO\" plugin version %1$s cannot run with this version of \"Flexible Shipping for UPS\" plugin. %2$sPlease update \"Flexible Shipping UPS PRO\" plugin to the newest version!%3$s"
+msgstr ""
+
+#: src/Plugin/Onboarding.php:171
+msgid "Step 1"
+msgstr ""
+
+#: src/Plugin/Onboarding.php:176
+msgid "Thank you for activating the UPS Live Rates plugin.%1$s You are only a few steps away from using the real-time calculated UPS rates in your store. Let us walk you through the whole configuration process step by step."
+msgstr ""
+
+#: src/Plugin/Onboarding.php:182
+msgid "No, thank you"
+msgstr ""
+
+#: src/Plugin/Onboarding.php:183
+msgid "Start configuration"
+msgstr ""
+
+#: src/Plugin/Onboarding.php:187
+msgid "UPS Live Rates plugin configuration"
+msgstr ""
+
+#: src/Plugin/Onboarding.php:199
+#: src/Plugin/Onboarding.php:223
+msgid "Previous step"
+msgstr ""
+
+#: src/Plugin/Onboarding.php:200
+msgid "Connect with UPS API"
+msgstr ""
+
+#: src/Plugin/Onboarding.php:205
+msgid "Step 2"
+msgstr ""
+
+#: src/Plugin/Onboarding.php:210
+msgid "Connecting to your UPS account"
+msgstr ""
+
+#: src/Plugin/Onboarding.php:217
+msgid "Choose the shipping zone you want to add the UPS Live Rates method within."
+msgstr ""
+
+#: src/Plugin/Onboarding.php:224
+msgid "Add to chosen shipping zones"
+msgstr ""
+
+#: src/Plugin/Onboarding.php:229
+msgid "Step 3"
+msgstr ""
+
+#: src/Plugin/Onboarding.php:234
+msgid "Adding the UPS Live Rates shipping method"
+msgstr ""
+
+#: src/Plugin/Onboarding.php:242
+msgid "You are all set now! UPS Live Rates should be available from now on to your customers.%1$s Please mind that shipping methods provided by UPS Live Rates plugin show up if the shop’s address has been entered in the WooCommerce settings.%1$s Testing if everything works fine and the UPS Live Rates shipping methods are displayed properly, e.g., in the cart is highly advised."
+msgstr ""
+
+#: src/Plugin/Onboarding.php:245
+msgid "Done!"
+msgstr ""
+
+#: src/Plugin/Onboarding.php:250
+msgid "Step 4"
+msgstr ""
+
+#: src/Plugin/Onboarding.php:255
+msgid "Configuration complete!"
+msgstr ""
+
+#: src/Plugin/Onboarding.php:287
+msgid "Let's begin with entering your UPS account credentials to be able to establish the UPS API connection.%1$s Please fill in the fields below with the proper data. All the information on how to obtain and where to find the UPS credentials can be found in %2$sthe plugin's documentation.%3$s"
+msgstr ""
+
+#: src/Plugin/Onboarding.php:305
+msgid "UPS User ID"
+msgstr ""
+
+#: src/Plugin/Onboarding.php:313
+msgid "UPS Password"
+msgstr ""
+
+#: src/Plugin/Onboarding.php:320
+msgid "UPS Access Key"
+msgstr ""
+
+#: src/Plugin/Onboarding.php:327
+msgid "UPS Account Number"
+msgstr ""
+
+#: src/Plugin/Plugin.php:304
+msgid "UPS Access Point"
+msgstr ""
+
+#: src/Plugin/Plugin.php:305
+msgid "Access point unavailable for selected shipping address!"
+msgstr ""
+
+#: src/Plugin/Plugin.php:306
+msgid "The closest point based on the billing address or shipping address."
+msgstr ""
+
+#: src/Plugin/Plugin.php:397
+msgid "Settings"
+msgstr ""
+
+#: src/Plugin/Plugin.php:398
+msgid "Docs"
+msgstr ""
+
+#: src/Plugin/Plugin.php:399
+msgid "Support"
+msgstr ""
+
+#: src/Plugin/Plugin.php:404
+msgid "Upgrade"
+msgstr ""
+
+#. Translators: link.
+#: src/Plugin/RateNotice.php:49
+msgid "%1$sOk, you deserved it%2$s"
+msgstr ""
+
+#. Translators: link.
+#: src/Plugin/RateNotice.php:55
+msgid "%1$sNope, maybe later%2$s"
+msgstr ""
+
+#. Translators: link.
+#: src/Plugin/RateNotice.php:61
+msgid "%1$sI already did%2$s"
+msgstr ""
+
+#: src/Plugin/RateNotice.php:74
+msgid "Awesome, you just crossed the 100 orders with UPS rates by Flexible Shipping UPS. Could you please do me a BIG favor and give it a 5-star rating on WordPress? ~ Peter"
+msgstr ""
+
+#: src/Plugin/view/settings-sidebar-html.php:16
+msgid "Get Flexible Shipping UPS PRO!"
+msgstr ""
+
+#: src/Plugin/view/settings-sidebar-html.php:20
+msgid "Handling Fees"
+msgstr ""
+
+#: src/Plugin/view/settings-sidebar-html.php:21
+msgid "Delivery Dates"
+msgstr ""
+
+#: src/Plugin/view/settings-sidebar-html.php:22
+msgid "Box Packing"
+msgstr ""
+
+#: src/Plugin/view/settings-sidebar-html.php:23
+msgid "Access Points Select"
+msgstr ""
+
+#: src/Plugin/view/settings-sidebar-html.php:24
+msgid "Flat Rate for Access Points"
+msgstr ""
+
+#: src/Plugin/view/settings-sidebar-html.php:25
+msgid "Multicurrency Support"
+msgstr ""
+
+#: src/Plugin/view/settings-sidebar-html.php:27
+msgid "Upgrade Now &rarr;"
+msgstr ""

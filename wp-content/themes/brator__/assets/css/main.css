@@ -1,0 +1,2956 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Light.eot');
+    src: url('Montserrat-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-Light.woff2') format('woff2'),
+        url('../fonts/Montserrat-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Robinson Rough';
+    src: url('../fonts/RobinsonRough.eot');
+    src: url('RobinsonRough.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RobinsonRough.woff') format('woff2'),
+        url('../fonts/RobinsonRough.woff') format('woff'),
+        url('../fonts/RobinsonRough.ttf') format('truetype'),
+        url('../fonts/RobinsonRough.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Medium.eot');
+    src: url('Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('../fonts/Montserrat-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.eot');
+    src: url('Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-SemiBold.eot');
+    src: url('Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+        url('../fonts/Montserrat-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+@font-face {
+    font-family: 'Robinson';
+    src: url('../fonts/RobinsonRegular.eot');
+    src: url('RobinsonRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RobinsonRegular.woff2') format('woff2'),
+        url('../fonts/RobinsonRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Robinson InLine Oblique';
+    src: url('../fonts/RobinsonInLineOblique.eot');
+    src: url('RobinsonInLineOblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RobinsonInLineOblique.woff2') format('woff2'),
+        url('../fonts/RobinsonRegular.woff') format('woff'),
+        url('../fonts/RobinsonInLineOblique.ttf') format('truetype'),
+        url('../fonts/RobinsonInLineOblique.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+
+body {
+    margin-top: 0px;
+    font-family: 'Montserrat';
+}
+
+
+.login {
+    background-color: #5d5d5d;
+    color: #fff;
+    padding: 17px 27px;
+    display: inline-block;
+    text-decoration: none;
+    transform: skewX(-10deg);
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid transparent;
+    margin-top: 10px;
+    font-family: 'Montserrat';
+
+}
+
+.login:hover {
+    background-color: transparent;
+    color: #5d5d5d;
+    border: 1px solid #5d5d5d;
+}
+
+.select2-dropdown.select2-dropdown--below{
+    top:-13px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    line-height: 42px;
+    font-size: 15px;
+}
+.select2-container .select2-selection--single{
+    height: 45px;
+}
+.login-section a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+    .login-section a:hover {
+      text-decoration: none !important; }
+  
+  .login-section .sign_in_btn,
+  .login-section .sign_in_btn:hover{
+  background-color: #000;
+      border-color: #000;
+  }
+  .login-section .input-group-text{
+    background-color: unset !important;
+    border:none !important;
+  }
+  .login-section .content {
+    padding: 7rem 0; }
+  
+  .login-section .half, .half .container > .row {
+    height: 100vh;
+    min-height: 700px; }
+  
+    .login-section .input-group-text{
+        padding:0px;
+    }
+    .login-section  .logo {
+        width: 150px;
+        margin-bottom: 70px;
+    }
+    .login-section  .login_title{
+        margin-bottom: 30px;
+        font-size: 42px;
+    }
+
+    .login-section .first .form-control ,
+    .login-section .last  .form-control {
+        padding-left: 0px;
+        padding-bottom: 0px;
+        height: 40px !important;
+        margin-left: 12px !important;
+    }
+    .login-section .first {
+        margin-bottom: 30px !important;
+    }
+    .login-section .icon-image {
+        width: auto;
+        height: 30px;
+    }
+  .brator-current-vehicle-area .brator-current-vehicle{
+    margin-bottom: 35px;
+  }
+  
+  .login-section .half .contents, .login-section .half .bg {
+    width: 100%; }
+  
+    .login-section .half .contents .form-control, .half .bg .form-control {
+      border: none;
+      -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+      box-shadow: none;
+      border-radius: 0px;
+      color:rgb(30, 29, 29);
+      height: 54px;
+      background: #fff;
+      border-bottom: 2px solid #ccc;
+     }
+      .login-section .half .contents .form-control:active, .half .contents .form-control:focus, .half .bg .form-control:active, .half .bg .form-control:focus {
+        outline: none;
+        -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1); }
+  
+  .login-section .half .bg {
+    background-size: cover;
+    background-position: center; }
+  
+  .login-section .half a {
+    color: #888;
+    text-decoration: underline; }
+  
+  .login-section .half .btn {
+    height: 44px;
+    line-height: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0px;
+    padding-top: 10px;
+    font-size: 19px;
+    
+    font-weight: 500;
+}
+.product-detail-sidebar form#advanced-searchform,.brator-breadcrumb-area.gray-bg,
+.single-product .brator-product-header-layout-area{
+    background: #fff;
+}
+.single-product .brator-product-header-layout-area .brator-product-header-layout{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.single-product .brator-product-img-tab-list.js-tabs#tabs-product-img {
+    padding-right: 50px;
+}
+.single-product .brator-product-img-tab-list.js-tabs#tabs-product-img.design-two .flex-control-thumbs{
+    max-width: 100%;
+}
+.single-product  .brator-product-img-tab-list.js-tabs#tabs-product-img.design-two .flex-control-thumbs li{
+    display: inline-block;
+}
+.single-product .brator-product-header-layout-area .brator-product-hero-content-review,
+.single-product .brator-product-single-item-featu,
+.single-product .brator-product-hero-content-add-to-cart .stock ,
+.single-product  .brator-product-single-light-info-area,
+.single-product .brator-product-hero-content-brand{
+    display: none;
+}
+.single-product  .brator-product-header-layout .flex-viewport{
+    order: 1 !important;
+}
+.single-product  .brator-product-header-layout .brator-product-img-tab-list.js-tabs#tabs-product-img.design-two .flex-control-thumbs{
+    order: 2 !important;
+}
+.single-product.woocommerce div.product .brator-product-img-tab-list.js-tabs#tabs-product-img.design-two div.images.woocommerce-product-gallery{
+    display: unset !important;
+}
+
+.brator-product-single-tab-list .brator-product-single-tab-header ul li .js-tabs__title-active{
+    background-color: var(--color-high-dark);
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 20px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+.brator-product-single-tab-list .brator-product-single-tab-header ul li a:after{
+    display: none;
+}
+.brator-footer-top-area.gray-bg.design-two.design-three{
+    clear: both;
+}
+.single-product.woocommerce div.product .woocommerce-product-gallery--columns-4 .flex-control-thumbs li:nth-child(4n+1){
+    clear: unset !important;
+}
+.single-product.woocommerce .brator-product-single-tab-list .brator-product-single-tab-header ul li a{
+    font-size: 19px;
+    margin-right: 10px;
+}
+.single-product.woocommerce .brator-product-hero-content .brator-product-hero-content-info .brator-product-hero-content-title h2{
+    font-size: 20px;
+}
+.woocommerce-shop .brator-product-shop-page-area .lg-display-none{
+    display: block;
+}
+.single-product.woocommerce .brator-product-layout-header-content{
+    padding: 15px;
+}
+.single-product.woocommerce .brator-product-single-tab-list .brator-product-single-tab-header ul{
+    margin-top:0px !important;
+    margin-bottom: 0px !important;
+}
+.single-product.woocommerce .variations .label{
+    display: none;
+}
+.single-product.woocommerce .brator-product-img-tab-list.js-tabs#tabs-product-img.design-two .flex-control-thumbs li{
+    width: 69px;
+    height: 66px;
+    width: 69px;
+    height: 66px;
+}
+.brator-product-img-tab-list.js-tabs#tabs-product-img.design-two .flex-control-thumbs li:last-child{
+    margin-right: 0px;
+}
+.brator-product-single-tab-list .brator-product-single-tab-header ul li a {
+    font-size: 19px;
+    margin-right: 10px;
+    color: #fff;
+    position: relative;
+    font-weight: 700;
+    background: #6666666b;
+    padding: 10px 20px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+.woocommerce-variation-add-to-cart .tinv-wishlist,
+.single-product .brator-product-single-tab-area+.brator-deal-product-slider .brator-product-single-item-cat,
+.single-product .brator-product-single-tab-area+.brator-deal-product-slider  .brator-product-single-item-review{
+    display: none;
+
+}
+.single-product  .brator-product-single-tab-area+.brator-deal-product-slider{
+    padding-top: 50px;
+}
+.single-product  .brator-product-single-tab-area+.brator-deal-product-slider .brator-product-single-item-area{
+    padding: 0px;
+    text-align: center;
+}
+.single-product  .brator-product-single-item-area .brator-product-single-item-mini .brator-product-single-item-price p{
+    display:block;
+}
+.single-product .brator-product-single-tab-area+.brator-deal-product-slider .brator-product-single-item-area .tinv-wishlist{
+    display: none;
+}
+.brator-product-header-layout-area{
+
+}
+.brator-product-layout-header-content{
+    background: #f2f2f7;
+}
+.single-product .product-detail-sidebar {
+    width: 25%;
+    float: left;
+}
+.single-product .brator-product-single-item-area.design-two .brator-product-single-item-mini .brator-product-single-item-price{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.brator-product-single-item-area.design-two .brator-product-single-item-mini .brator-product-single-item-title{
+    padding: 0px 5px;
+}
+.single-product  .brator-product-single-tab-area{
+    background: #f2f2f7;
+    padding: 25px;
+}
+.single-product  .brator-product-single-tab-item {
+    padding-top: 15px;
+    border-top: 2px solid;
+    margin-top: 20px;
+}
+.single-product .brator-product-single-tab-list .brator-product-single-tab-header ul{
+    border-bottom: 0px !important;
+}
+.single-product .brator-product-single-item-area .brator-product-single-item-mini .brator-product-single-item-title h5{
+    min-height: 51px;
+}
+.single-product .splide__arrows.style-two .splide__arrow--prev,
+.single-product .splide__arrows.style-two .splide__arrow--next{
+    display: none;
+}
+.single-product  .brator-product-single-item-area.design-two:hover .brator-product-single-item-mini{
+    margin-top: 0px;
+}
+.product-detail-page-right {
+    width: 75%;
+    float: right;
+    padding-left: 40px;
+}
+  .login-section .half .forgot-pass {
+    position: relative;
+    top: 2px;
+    font-size: 14px; }
+  
+  .login-section .control {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 14px; }
+    .login-section .control .caption {
+      position: relative;
+      top: .2rem;
+      color: #888; }
+  
+  .login-section .control input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0; }
+  
+  .login-section .control__indicator {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background: #e6e6e6;
+    border-radius: 4px; }
+  
+  .login-section .control--radio .control__indicator {
+    border-radius: 50%; }
+  
+  .login-section .control:hover input ~ .control__indicator,
+  .login-section .control input:focus ~ .control__indicator {
+    background: #ccc; }
+  
+  .login-section .control input:checked ~ .control__indicator {
+    background: #fb771a; }
+  
+    .login-section .control:hover input:not([disabled]):checked ~ .control__indicator,
+  .login-section .control input:checked:focus ~ .control__indicator {
+    background: #fb8633; }
+  
+  .login-section .control input:disabled ~ .control__indicator {
+    background: #e6e6e6;
+    opacity: 0.9;
+    pointer-events: none; }
+  
+  .login-section .control__indicator:after {
+    font-family: 'icomoon';
+    content: '\e5ca';
+    position: absolute;
+    display: none;
+    font-size: 16px;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+  
+  .login-section .control input:checked ~ .control__indicator:after {
+    display: block;
+    color: #fff; }
+  
+  .login-section .control--checkbox .control__indicator:after {
+    top: 50%;
+    left: 50%;
+    margin-top: -1px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+  
+  .login-section .control--checkbox input:disabled ~ .control__indicator:after {
+    border-color: #7b7b7b; }
+  
+  .login-section .control--checkbox input:disabled:checked ~ .control__indicator {
+    background-color: #7e0cf5;
+    opacity: .2; }
+  
+
+.hero-title-text h1 {
+    font-family: 'Robinson Rough';
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    left: 23%;
+    font-weight: 500!important;
+}
+
+.hero-title {
+    position: relative;
+    margin-top: -10px;
+}
+
+
+.brator-footer-top-element.brator-footer-top-address img.title-img {
+    margin-bottom: 0px;
+}
+
+.input-group {
+    width: 100%;
+}
+
+.login-buton {
+    float: right;
+}
+
+.find-dealer img{
+    vertical-align: middle!important;
+}
+
+/* .woocommerce-account .container {
+    max-width: 100%;
+} */
+.woocommerce-page .brator-blog-post-area{
+    padding: 0px 0;
+}
+.woocommerce-page .brator-blog-post-area .content-side{
+    padding: 0px;
+}
+.rating-text p{
+    margin-right: 0px;
+    color: #fff;
+}
+
+.brator-header-menu-area.red-variant .brator-header-menu ul.list-style-outside-none li a {
+   font-weight: 600!important;
+   font-family: 'Montserrat';
+  
+}
+
+.woocommerce-shop .products.columns-4{
+    padding: 45px 0px;
+}
+.woocommerce-shop .brator-product-single-item-area{
+    padding: 0px;
+}
+.brator-footer-top-element .brator-link-list-one ul li {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    background-color: #e8e8e8;
+}
+
+.input-group-text {
+    background-color: #e8e8e8 !important;
+}
+
+.social-icon {
+    display: flex;
+    padding: 0px;
+
+}
+
+
+.brator-header-area .row{
+        align-items: center!important;
+}
+
+.brator-header-menu-area.red-variant {
+    background: #ed3333 !important;
+}
+
+.social-icon li {
+    margin-right: 17px;
+}
+
+.header-top {
+    padding: 28px 0px;
+}
+
+
+.brator-footer-top-area {
+    padding-top: 0px;
+}
+
+.brator-footer-top-element h6.footer-top-title {
+    font-family: 'Montserrat';
+    margin-bottom: 25px!important;
+    
+}
+
+.brator-footer-top-element .brator-link-list-one a {
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.brator-copyright-area p {
+    font-family: 'Montserrat';
+}
+    
+
+.header-bottom {
+
+    background-color: #d7291c;
+    color: #fff;
+}
+
+
+.main-nav {
+    display: flex;
+    flex-direction: row;
+
+    padding: 18px 0px;
+    margin: 0px;
+}
+
+.accessories-img-bumpers img{
+    clip-path: polygon(100% 0, 94% 30%, 100% 65%, 93% 100%, 0 100%, 0% 60%, 0 0);
+}
+
+.accessories-img-doors img{
+    clip-path: polygon(6% 0%, 100% 0, 100% 30%, 100% 71%, 100% 100%, 0 100%, 6% 65%, 0 31%);
+}
+
+.main-nav li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-family: 'Montserrat';
+    transition: all 0.5s ease-in-out;
+}
+
+.main-nav li a:hover {
+    color: #5d5d5d;
+}
+
+.main-nav li {
+    list-style: none;
+    margin-right: 39px;
+}
+
+.main-nav li:last-of-type {
+    margin-right: 0px;
+}
+
+.brator-footer-top-area.design-two .brator-footer-top-element.brator-footer-top-address .brator-footer-top-content .brator-social-link.svg-link a {
+    margin-right: 10px!important;
+}
+
+.brator-footer-top-area.design-two .brator-footer-top-element.brator-footer-top-address .brator-footer-top-content .brator-social-link.svg-link {
+    margin-top: 0px!important;
+}
+
+.menu-icon {
+    display: none;
+}
+.side_filter .count_categories {
+    float: right;
+    font-size: 15px;
+    font-weight: 500;
+}
+.side_filter ul{
+    list-style: none;
+}
+.side_filter .fa-folder,.side_filter .fa-folder-open {
+    color: #ccc;
+    font-size: 16px;
+    margin-right: 5px;
+}
+.side_filter .f_title {
+    font-size: 18px;
+    padding-bottom: 13px;
+    font-weight: 800;
+}
+.product_detail_wrap .brator-breadcrumb-area .breadcrumb li+li::before {
+    padding: 5px;
+    color: black;
+    content: ">";
+}
+.brator-breadcrumb ul li a{
+    color: #000;
+}
+.brator-product-single-item-area .brator-product-single-item-mini .brator-product-single-item-btn{
+    height: 44px;
+    transition: 0.3s all;
+    overflow: hidden;
+}
+.brator-sidebar-single-item .shop-cat-list .sub-cat svg{
+    color: #000;
+}
+.product_detail_wrap .brator-breadcrumb-area .breadcrumb li{
+    font-weight: 800;
+}
+.product_detail_wrap .brator-breadcrumb-area{
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+.product_detail_wrap  .result_count{
+    line-height: 42px;
+    margin-bottom: 0px;
+}
+.product_detail_wrap .breadcrumb{
+    border-bottom: 2px solid;
+    padding-bottom: 16px;
+}
+.product_detail_wrap .pagination{
+    display: block;
+}
+.product_detail_wrap .brator-pagination-box.brator-product-pagination{
+margin-top: 0px;
+text-align: right;
+}
+.select2-results__option {
+    padding: 6px 12px;
+}
+.product_detail_wrap .brator-pagination-box .navigation.pagination .page-numbers,
+.product_detail_wrap .brator-pagination-box .navigation.pagination .page-numbers{
+    padding: 15px 10px;
+    color: #000 !important;
+    background: #ededed80;
+}
+.product_detail_wrap  .brator-pagination-box .navigation.pagination .page-numbers.current{
+    color: #fff !important;
+}
+.product_detail_wrap  .brator-pagination-box .navigation.pagination .page-numbers:hover{
+    background-color: var(--color-high-dark) !important;
+    color:#fff !important;
+}
+.product_detail_wrap .row.products_list {
+    padding: 45px 0px;
+    padding-bottom: 15px;
+}
+.product_detail_wrap img.img.product-image {
+    max-height: 150px;
+    border-radius: 11px;
+}
+.product_item_wrap {
+    border-radius: 11px;
+    border: 1px solid #ccc;
+}
+.product_detail_wrap .product_title{
+    font-size: 15px;
+    text-align: center;
+    background: #ededed80;
+    padding: 10px;
+    font-weight: 600;
+}
+.product_list_add_to_Cart .product_detail_wrap .produc_item_a{
+    font-size: 15px;
+    text-align: center;
+    background: #ededed80;
+    padding: 10px;
+    font-weight: 600;
+    display: block;
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 11px;
+}
+.product_list_add_to_Cart  .product_detail_wrap .price{
+    color: #ed3333;
+    font-size: 32px;
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: 500;
+}
+.product_list_add_to_Cart  .product_detail_wrap .product_title{
+    font-size: 15px;
+    text-align: center;
+    background: unset;
+    padding: 10px;
+    font-weight: 600;
+    border-top: 1px solid #ccc;
+}
+.product_detail_wrap  .products_list a:hover .product_title,
+.product_list_add_to_Cart .product_detail_wrap .product_item:hover a{
+    background-color: #ed3333;
+    color:#fff;
+}
+
+.product_detail_wrap .row.products_list .product_item{
+    margin-bottom: 30px;
+}
+.product_detail_wrap  .brator-pagination-box .navigation.pagination .page-numbers{
+    margin: 0 2px 10px;
+}
+.product_categories_filter .f_title {
+    padding-top: 70px;
+    border-bottom: 1px solid;
+ 
+}
+.woocommerce .brator-inline-product-filter-area{
+    display: block;
+}
+.woocommerce .brator-breadcrumb ul li a ,.brator-breadcrumb ul li{
+    font-size: 18px;
+    font-weight: 800;
+}
+.woocommerce .brator-inline-product-filter-right .brator-filter-short-by > p{
+    display: none;
+}
+.woocommerce .brator-inline-product-filter-area .brator-inline-product-filter-right{
+    display: unset;
+}
+.woocommerce .brator-breadcrumb ul li::after{
+    content: ">";
+}
+.woocommerce .pagination{
+    float: right;
+}
+.woocommerce .brator-inline-product-filter-area .brator-inline-product-filter-right .brator-filter-short-by{
+    width: 22%;
+    float: left;
+}
+.woocommerce .brator-inline-product-filter-area .brator-inline-product-filter-left{
+    width: 24%;
+    float: left;
+}
+.woocommerce  .brator-pagination-box.brator-product-pagination{
+    width: 54%;
+    float: right;
+}
+.products.columns-4{
+    clear: both;
+}
+.woocommerce .breadcrumb {
+    border-bottom: 2px solid;
+    padding-bottom: 16px;
+}
+.woocommerce .brator-breadcrumb-area{
+    width: 100%;
+}
+.product_categories_filter .parent_ul{
+    padding-left: 0px;
+}
+.product_categories_filter .active{
+    color: #ed3333;
+}
+.select2-container{
+    width: 100% !important;
+}
+.product_name .product_name{
+    border: 1px solid #cfcbcb !important;
+    margin-bottom: 13px;
+    padding: 10px;
+}
+input.submit {
+    background: #ed3333;
+    color: #fff;
+    border-color: #ed3333;
+    box-shadow: none;
+    outline: none;
+    padding: 6px 0px;
+}
+.product_detail_wrap {
+    padding: 80px 0px;
+}
+.side_filter {
+    padding: 20px 15px;
+    box-shadow: 3px -5px 31px #d3d2d2;
+}
+.side_filter .selection {
+    margin-bottom: 17px;
+}
+.side_filter .s_category,.side_filter .parents_categories {
+    font-size: 13px;
+    clear: both;
+    font-weight: 500;
+}
+
+.brator-footer-top-area.design-two .brator-footer-top-element.brator-footer-top-address .brator-footer-top-content h6{
+    margin-bottom: 20px!important;
+}
+
+.find-deal {
+    background-color: #d7291c;
+    color: #fff;
+    padding: 23px 28px;
+    transform: skew(-10deg);
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 20px;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+
+.find-deal:hover {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.contact-us {
+    background-color: #5d5d5d;
+    color: #fff;
+    padding: 23px 28px;
+    transform: skew(-10deg);
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid transparent;
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+
+.contact-us:hover {
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+
+.hero {
+    position: relative;
+}
+
+.play-icon {
+    position: absolute;
+    top: 48%;
+    left: 30%;
+
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.vehicle-product {
+    padding: 100px 150px;
+}
+
+.vehicle-product-link {
+    background-color: #d7291c;
+    color: #fff;
+    padding: 23px 28px;
+    transform: skew(-10deg);
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid transparent;
+    font-weight: 500;
+}
+
+.vehicle-product-link:hover {
+    background-color: transparent;
+    border: 1px solid #d7291c;
+    color: #d7291c;
+}
+
+
+
+.vehicle-products-1 {
+    display: grid;
+    column-gap: 100px;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 100px;
+   
+}
+
+.vehicle-products-2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.vehicle-content-title {
+    text-align: center;
+    font-family: 'Robinson InLine Oblique';
+    font-size: 54px;
+    color: #d7291c;
+    font-style: italic;
+    margin-bottom: 30px;
+   font-weight: 500!important;
+}
+
+.e-fab-facebook-f{
+    background-color: #1c4b8c;
+    fill: #fff!important;
+    padding: 1px 13px;
+    border-radius: 100%;
+
+}
+
+.e-fab-twitter{
+    background-color: #54abee;
+    fill: #fff!important;
+    padding: 1px 8px;
+    border-radius: 100%;
+}
+
+.e-fab-instagram{
+    background: #f09433;
+    background: -moz-linear-gradient(300deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(300deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(300deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+   fill: #fff!important;
+    padding: 1px 10px;
+    border-radius: 100%;
+}
+
+.e-fab-youtube{
+    background-color: #e02f2f;
+    fill: #fff!important;
+    padding: 1px 10px;
+    border-radius: 100%;
+}
+
+.brator-social-link a svg {
+    font-size: 40px!important;
+    color: #fff!important;
+}
+
+
+.curved-image {
+    position: absolute;
+    top: 0;
+    right: 37%;
+
+}
+   
+
+.curved-image img{
+    height: 800px;
+}
+
+.brator-footer-top-area{
+    background-image: url(../images/foote-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.brator-footer-area{
+    background-color: #ececec;
+}
+
+
+
+.vehicle-content-button {
+    text-align: center;
+}
+
+.vehicle-category-title {
+    text-align: center;
+    font-family: 'Robinson';
+    font-size: 70px;
+    color: #d7291c;
+   font-weight: 500!important;
+   margin-bottom: 0px;
+}
+
+.vehicle-trial-content {
+    position: absolute;
+    top: 0%;
+    right: 0px;
+    text-align: center;
+    background-color: #141618;
+    width: 38%;
+    height: 800px;
+}
+
+
+
+
+.vehicle-text {
+    margin-top: 160px;
+    margin-right: 80px;
+}
+
+
+.accessoris-content {
+    padding: 120px 260px;
+}
+
+.accessories-img-mobile{
+    display: none;
+}
+
+.accessories-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.elementor-top-section{
+    padding: 0px 275px;
+}
+
+.brator-footer-area {
+    padding: 50px 275px;
+}
+
+.brator-search-area{
+    margin-top: 10px;
+}
+.address-input input{
+    width: 80%;
+}
+
+.dealer-login-content {
+    margin-top: 40px;
+}
+
+
+
+.footer {
+    background-image: url(../images/foote-bg.png);
+    padding: 0px 275px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 140px;
+    padding-bottom: 0px;
+}
+
+.input-group {
+    margin-top: 10px;
+}
+form#advanced-searchform{
+    padding: 20px 15px;
+    box-shadow: 3px -5px 31px #d3d2d2;
+}
+#advanced-searchform select, #advanced-searchform .select2 {
+    margin-bottom: 17px;
+}
+#advanced-searchform button[type=submit]{
+    width: 100%;
+}
+#advanced-searchform h5{
+    font-size: 18px;
+    padding-bottom: 13px;
+    font-weight: 800;
+    
+}
+.brator-sidebar-single-item{
+    background-color: #fff;
+}
+.brator-sidebar-single-item .shop-sidebar-title h2{
+    border-bottom: 1px solid;
+    width: 100%;
+    padding-bottom: 13px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    padding-bottom: 13px;
+    font-weight: 800;
+}
+.brator-sidebar-single-item .shop-cat-list .cat-item::before {
+    content: "\f07b";
+    margin-right: 8px;
+}
+.brator-sidebar-single-item .shop-cat-list .cat-item.current-cat::before,
+.brator-sidebar-single-item .shop-cat-list .cat-item.current::before{
+    content: "\f07c";
+}
+#woocommerce_product_categories-1 span.count {
+    float: right;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 27px;
+    color: #000;
+}
+.brator-breadcrumb-area .container {
+    max-width: 100%;
+    padding: 0px;
+}
+.brator-breadcrumb-area  .brator-breadcrumb{
+    border-bottom: 2px solid;
+    padding-bottom: 16px;
+}
+.brator-breadcrumb ul li,
+.brator-breadcrumb ul li::after{
+    color: #000;
+}
+.brator-inline-product-filter-area .brator-inline-product-filter-left .brator-filter-show-result p{
+    line-height: 42px;
+    margin-bottom: 0px;
+    color: #666666;
+    padding-left: 30px;
+}
+.brator-pagination-box .navigation.pagination .page-numbers{
+    color: #000 !important;
+}
+.brator-pagination-box .navigation.pagination .page-numbers {
+     display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 4px 10px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #edeef2;
+    text-align: center;
+
+    font-size: 16px;
+    transition: 0.5s ease;
+    border-radius: 3px;
+    margin: 0 2px 10px;
+    padding: 15px 10px;
+    color: #000 !important;
+    background: #ededed80;
+}
+#main > .brator-banner-slider-area{
+    display: none;
+}
+.brator-sidebar-single-item .shop-cat-list .cat-item{
+    color: #ccc;
+    font-size: 16px;
+    margin-right: 5px;
+    font-family: var(--fa-style-family,"Font Awesome 6 Free");
+    font-weight: var(--fa-style,900);
+ 
+}
+.brator-sidebar-single-item {
+    background-color: #fff;
+    padding: 20px 15px;
+    box-shadow: 4px 30px 31px #d3d2d2;
+    margin-bottom: 0px;
+}
+.brator-sidebar-single-item .shop-sidebar-title{
+    margin-bottom: 10px;
+}
+.footer-icon {
+    display: flex;
+    justify-content: space-between;
+}
+.woocommerce-shop #main,
+.single-product #main{
+    padding: 80px 0px
+}
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vehicle-trial-content-title {
+    color: #fff;
+    text-align: center;
+    font-family: 'Robinson';
+    font-size: 100px;
+    margin-bottom: 30px;
+    font-weight: 500!important;
+}
+
+.bumper {
+    position: absolute;
+    top: 70%;
+    color: #fff;
+    font-size: 54px;
+    font-family: 'Robinson';
+    left: 20px;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.bumper:hover {
+    color: #d7291c;
+}
+
+.doors {
+    position: absolute;
+    top: 70%;
+    right: 0;
+    color: #fff;
+    font-size: 54px;
+    font-family: 'Robinson';
+    right: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.doors:hover {
+    color: #d7291c;
+}
+
+.fb-icon {
+    background-color: #1c4b8c;
+    color: #fff !important;
+    padding: 10px 15px;
+    border-radius: 100%;
+
+}
+
+.instagram-icon {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: #fff !important;
+    padding: 10px 15px;
+    border-radius: 100%;
+}
+
+.twitter-icon {
+    background-color: #54abee;
+    color: #fff !important;
+    padding: 10px 15px;
+    border-radius: 100%;
+}
+
+.brator-footer-top-element h6.footer-top-title {
+    font-size: 18px;
+}
+
+.you-tube-icon {
+    background-color: #e02f2f;
+    color: #fff !important;
+    padding: 10px 15px;
+    border-radius: 100%;
+}
+
+.icon-payment {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
+.icon-payment li {
+    margin-right: 10px;
+
+}
+
+.verticle-line {
+    text-align: center;
+}
+
+.customer-name {
+    color: #fff;
+}
+
+.rating-text {
+    color: #fff;
+}
+
+.rating-img .active{
+        font-size: 70px;
+        color: #ffcc33;
+    }
+    .rating-img i{
+        margin-right: 30px;
+        font-size: 70px;
+    }
+
+.loction-address {
+    text-align: center;
+}
+
+.vehicle-products-1 {
+    margin-bottom: 0px;
+   
+}
+
+
+.discover-your {
+    background-color: transparent;
+    color: #fff;
+    padding: 23px 28px;
+    transform: skew(-10deg);
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    margin-top: 20px;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+}
+
+.discover-your:hover {
+    background-color: #fff;
+    color: #d7291c;
+}
+
+.find-dealer-content {
+    background-image: url(../images/accessories-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 87px 133px;
+}
+
+.find-dealer .container {
+    padding: 0px 270px;
+}
+
+.deal {
+    color: #fff;
+    text-align: center;
+    font-family: 'Robinson';
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.discover-your-button {
+    text-align: center;
+}
+
+.login-dealer-button {
+    text-align: center;
+    color: #d7291c;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 23px 48px;
+    transform: skew(-10deg);
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    transition: all 0.5s ease-in-out;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+}
+
+.login-dealer-button:hover {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.become-leader-button {
+    text-align: center;
+    color: #d7291c;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 23px 28px;
+    transform: skew(-10deg);
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    transition: all 0.5s ease-in-out;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+}
+
+.become-leader-button:hover {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+
+
+
+.accessories-link {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    background-color: #d7291c;
+    border: 1px solid transparent;
+    padding: 23px 28px;
+    transform: skew(-10deg);
+    display: inline-block;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    font-weight: 500;
+}
+
+.accessories-link:hover {
+    background-color: transparent;
+    border: 1px solid #d7291c;
+    color: #d7291c;
+
+}
+
+.accessories-button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.accessories-title {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Robinson';
+    color: #d7291c;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.find-dealer {
+    padding-bottom: 120px;
+}
+
+.video-link span {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-icon {
+    margin-bottom: 50px;
+}
+
+.under-line {
+    margin-bottom: 50px;
+}
+
+iframe{
+    width: 60%;
+}
+
+.footer-menu {
+    margin-bottom: 50px;
+}
+
+.footer-logo img {
+    margin-bottom: 30px;
+}
+
+.footer-menu ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.5s ease-in-out;
+    display: inline-block;
+
+}
+
+.footer-menu ul li a:hover {
+    color: #d7291c;
+}
+
+.footer-menu ul li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.footer-title {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.rating-text p {
+    font-size: 26px;
+    font-family: 'Montserrat';
+    color: #fff;
+    line-height: 46px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.customer-name p {
+    font-size: 26px;
+    font-family: 'Montserrat';
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+.video-link span {
+    font-size: 20px;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+.footer-icon-tag h5 {
+    font-size: 34px;
+    font-family: 'Robinson';
+}
+
+.footer-icon-tag h3 {
+    font-size: 72px;
+    font-family: 'Robinson';
+
+}
+
+
+
+.footer-icon-tag-text {
+    margin-left: 20px;
+}
+
+.rating-img {
+    margin-bottom: 30px;
+}
+
+.address-input input {
+    padding: 20px 25px;
+    line-height: 1;
+   
+}
+
+.carousel-control-next-icon {
+    background-image: url(../images/next.png);
+    background-color: #fff;
+
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../images/previous.png);
+}
+
+.menu-item-2121 , .menu-item-2122 {
+  display: none;
+}
+
+.logged-in .menu-item-2121 , .logged-in .menu-item-2122 {
+  display: inline;
+}
+
+@media screen and (max-width:1600px) {
+    .main-nav li a {
+        font-size: 13px;
+    }
+
+    .main-nav li {
+        margin-right: 28px;
+    }
+
+    .find-dealer .container {
+        padding: 0px 228px;
+    }
+
+    .customer-name p {
+        font-size: 21px;
+        margin-bottom: 60px;
+        
+    }
+
+    
+.rating-text p {
+    font-size: 21px;
+    line-height: 38px;
+    margin-bottom: 30px;
+}
+
+    .doors {
+        top: 65%;
+    }
+
+    .vehicle-text {
+        margin-top: 120px;
+        margin-right: 70px;
+    }
+
+    .hero-title-text h1 {
+        font-size: 83px;
+    }
+
+    .bumper {
+        top: 65%;
+    }
+
+    .brator-header-menu-area .brator-header-menu ul.list-style-outside-none li a {
+        font-size: 12px!important;
+        padding: 15px 8px!important;
+    }
+
+    iframe {
+        width: 60%;
+        height: 675px;
+    }
+
+    .curved-image img{
+        height: 675px;
+    }
+
+    .vehicle-trial-content{
+        height: 675px;
+    }
+
+    .accessoris-content {
+        padding: 120px 216px;
+    }
+
+    .address-input input {
+        padding: 17px 20px;
+    }
+
+    .footer {
+        padding: 0px 228px;
+        padding-top: 90px;
+        padding-bottom: 0px;
+    }
+
+    .elementor-top-section {
+        padding: 0px 228px;
+    }
+
+    .rating-img .active {
+        font-size: 53px;
+        color: #ffcc33;
+    }
+
+    .rating-img i {
+        margin-right: 20px;
+        font-size: 53px;
+    }
+
+    .vehicle-trial-content-title {
+        font-size: 80px;
+    }
+
+    .social-icon li {
+        margin-right: 15px;
+    }
+
+    .find-dealer-content {
+
+        padding: 70px 40px;
+    }
+    
+
+    .dealer-login-content {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .main-nav li {
+        margin-right: 28px;
+    }
+
+    .main-nav li a {
+        font-size: 12px;
+    }
+
+    .vehicle-content-title {
+        font-size: 40px;
+    }
+
+    .vehicle-trial-content-title {
+        font-size: 75px;
+    }
+
+    .vehicle-products-1 {
+        margin-bottom: 0px;
+        column-gap: 80px;
+        row-gap: 80px;
+    }
+
+    .login {
+        font-size: 12px;
+        padding: 12px 25px;
+    }
+
+    .find-deal {
+        padding: 12px 25px;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-family: 'Montserrat';
+    }
+
+
+    .brator-footer-top-element .brator-link-list-one a {
+        font-size: 12px!important;
+    }
+
+    .accessoris-content {
+        padding: 88px 190px;
+    }
+
+    .brator-copyright-area p {
+        font-size: 12px!important;
+    }
+
+    .customer-name p {
+        font-size: 21px;
+        margin-bottom: 50px;
+        
+    }
+
+   
+    
+
+    .accessories-button {
+       
+        margin-top: 40px;
+    }
+
+    .brator-footer-top-element h6.footer-top-title {
+        margin-bottom: 20px!important;
+        font-size: 13px;
+    }
+    
+
+    
+.rating-text p {
+    font-size: 19px;
+    line-height: 34px;
+    margin-bottom: 25px;
+}
+
+    .brator-header-menu-area .brator-header-menu ul.list-style-outside-none li a {
+        font-size: 10px!important;
+    }
+
+
+    .hero-title-text h1 {
+        font-size: 75px;
+    }
+
+    .header-top {
+        padding: 23px 0px;
+    }
+
+    .contact-us {
+        padding: 12px 25px;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    .elementor-top-section{
+        padding: 0px 200px;
+    }
+    
+    .brator-footer-area {
+        padding: 50px 200px;
+    
+    }
+    
+    .rating-img .active{
+        font-size: 53px;
+        color: #ffcc33;
+    }
+    .rating-img i{
+        margin-right: 20px;
+        font-size: 53px;
+    }
+
+    .vehicle-text {
+        margin-top: 110px;
+        margin-right: 65px;
+    }
+
+    .bumper {
+        top: 65%;
+    }
+
+    .doors {
+        top: 65%;
+    }
+
+    .social-icon li {
+        margin-right: 12px;
+    }
+
+    .vehicle-category-title {
+        font-size: 52px;
+        margin-bottom: 0px;
+    }
+
+    .vehicle-content-title {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .find-dealer {
+        padding-bottom: 90px;
+    }
+
+    .main-nav {
+        padding: 13px 0px;
+    }
+
+    .vehicle-product-link {
+        padding: 12px 25px;
+        font-size: 12px;
+    }
+
+    .rating-text p {
+        font-size: 20px;
+    }
+
+    .customer-name p {
+        font-size: 20px;
+
+    }
+
+    .accessories-title {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+
+    .doors {
+        font-size: 40px;
+    }
+
+    .bumper {
+        font-size: 40px;
+
+    }
+
+    iframe {
+        width: 60%;
+        height: 600px;
+    }
+
+    .curved-image img{
+        height: 600px;
+    }
+
+    .vehicle-trial-content{
+        height: 600px;
+    }
+
+    .copyright-text p {
+        font-size: 12px;
+    }
+
+    .accessories-link {
+        padding: 12px 25px;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    .find-dealer .container {
+        padding: 0px 205px;
+    }
+
+    .address-input input {
+        padding: 15px 20px;
+        font-size: 12px;
+        color: #5d5d5d;
+        font-weight: 600;
+    }
+
+    .find-dealer-content {
+        padding: 66px 70px;
+    }
+
+    .discover-your {
+        font-size: 12px;
+        padding: 14px 36px;
+    }
+
+    .login-dealer-button {
+        font-size: 12px;
+        padding: 14px 36px;
+        margin-left: 10px;
+
+    }
+
+    .become-leader-button {
+        font-size: 12px;
+        padding: 14px 22px;
+        margin-left: 20px;
+
+    }
+
+    .footer {
+        padding: 0px 200px;
+        padding-top: 100px;
+        padding-bottom: 0px;
+    }
+
+    .footer-icon {
+        margin-bottom: 40px;
+    }
+
+    .elementor-top-section{
+        padding: 0px 200px;
+    }
+    
+    .brator-footer-area {
+        padding: 50px 200px;
+    
+    }
+    
+    .rating-img .active{
+        font-size: 53px;
+        color: #ffcc33;
+    }
+    .rating-img i{
+        margin-right: 20px;
+        font-size: 53px;
+    }
+    
+    .brator-footer-top-element .brator-link-list-one ul li {
+        margin-bottom: 15px;
+    }
+
+    .under-line {
+        margin-bottom: 40px;
+    }
+
+    .footer-menu {
+        margin-bottom: 40px;
+    }
+
+    .footer-menu ul li {
+        margin-bottom: 15px;
+    }
+
+    .footer-logo img {
+        margin-bottom: 20px;
+    }
+
+    .deal {
+        font-size: 52px;
+        margin-bottom: 30px;
+    }
+
+    .footer-icon-tag h5 {
+        font-size: 25px;
+    }
+
+    .footer-icon-tag h3 {
+        font-size: 54px;
+    }
+
+    .footer-menu ul li a {
+        font-size: 12px;
+    }
+
+    .footer-title {
+        font-size: 13px;
+        margin-bottom: 22px;
+    }
+    .filter_pagination .sortby_wrap{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:1410px) {
+    .filter_pagination > .row > .col-md-6{
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+@media screen and (max-width:1200px) {
+    .main-nav li {
+        margin-right: 20px;
+    }
+    .product_detail_wrap .product_title{
+        font-size: 13px;
+    }
+    .filter_pagination > .row > .col-md-6,
+    .product_detail_wrap .brator-pagination-box.brator-product-pagination{
+        text-align: center !important;
+    }
+    .filter_pagination > .row > .col-md-6 .select2-selection--single{
+        text-align: left;
+    }
+    .filter_pagination .sortby_wrap{
+        margin-bottom: 20px;
+    }
+    .login-section .half .contents, .half .bg {
+        width: 100%; }
+
+    .login {
+        padding: 8px 15px;
+        font-weight: 600;
+    }
+
+    .find-deal {
+        padding: 8px 15px;
+        font-weight: 600;
+    }
+
+    .contact-us {
+        padding: 8px 15px;
+        font-weight: 600;
+    }
+    
+
+    .vehicle-category-title {
+        font-size: 43px;
+        margin-bottom: 0px;
+    }
+
+    .brator-header-menu-area .brator-header-menu ul.list-style-outside-none li a {
+        font-size: 8px!important;
+    }
+
+    .bumper {
+        top: 65%;
+    }
+
+    .doors {
+        top: 65%;
+    }
+
+    .address-input input {
+        padding: 10px 15px;
+    }
+
+
+
+    
+    .brator-footer-top-element .brator-link-list-one ul li {
+        margin-bottom: px;
+    }
+
+    .vehicle-content-title {
+        font-size: 33px;
+        margin-bottom: 13px;
+    }
+
+    .customer-name p {
+        font-size: 16px;
+        margin-bottom: 40px;
+        
+    }
+
+    .brator-footer-top-element h6.footer-top-title {
+        margin-bottom: 15px!important;
+        font-size: 12px;
+    }
+    
+
+    .accessories-button {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    
+.rating-text p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+    
+
+    .footer {
+        padding: 0px 170px;
+        padding-top: 80px;
+        padding-bottom: 0px;
+    
+}
+
+.rating-img .active {
+    font-size: 33px;
+    color: #ffcc33;
+}
+.rating-img i{
+    margin-right: 14px;
+    font-size: 33px;
+}
+
+
+.elementor-top-section{
+    padding: 0px 170px;
+}
+
+.brator-footer-area {
+    padding: 40px 170px;
+
+}
+
+    .vehicle-product {
+        padding: 60px 100px;
+    }
+
+    .hero-title-text h1 {
+        font-size: 62px;
+    }
+    .social-icon li {
+        margin-right: 10px;
+    }
+
+    .header-top {
+        padding: 18px 0px;
+    }
+
+    .vehicle-trial-content-title {
+        font-size: 62px;
+    }
+
+    .accessoris-content {
+        padding: 70px 160px;
+    }
+
+    .vehicle-text {
+        margin-top: 100px;
+        margin-right: 50px;
+    }
+
+    iframe {
+        width: 60%;
+        height: 521px;
+    }
+
+    .curved-image img{
+        height: 521px;
+    }
+
+    .vehicle-trial-content{
+        height: 521px;
+    }
+
+    .rating-text p {
+        font-size: 16px;
+    }
+
+    .find-dealer .container {
+        padding: 0px 170px;
+    }
+
+    .find-dealer {
+        padding-bottom: 70px;
+    }
+
+    .vehicle-products-1 {
+        margin-bottom: 0px;
+        column-gap: 60px;
+        row-gap: 60px;
+    }
+
+    .customer-name p {
+        font-size: 16px;
+    }
+
+    .video-link span {
+        font-size: 12px;
+        margin-left: 15px;
+    }
+
+    .accessories-title {
+        font-size: 43px;
+        margin-bottom: 20px;
+    }
+
+   
+    .doors {
+        font-size: 33px;
+    }
+
+    .bumper {
+        font-size: 33px;
+    }
+
+    .deal {
+        font-size: 43px;
+        margin-bottom: 20px;
+    }
+
+    .find-dealer-content {
+        padding: 50px 10px;
+    }
+
+    .footer-icon {
+        margin-bottom: 30px;
+    }
+
+    .under-line {
+        margin-bottom: 30px;
+    }
+
+    .footer-menu {
+        margin-bottom: 30px;
+    }
+
+    .footer-menu ul li {
+        margin-bottom: 12px;
+    }
+
+    .footer-title{
+        margin-bottom: 17px;
+    }
+
+    .login-dealer-button {
+        padding: 12px 27px;
+        margin-left: 10px;
+
+    }
+
+    .become-leader-button {
+        padding: 12px 17px;
+        margin-left: 10px;
+
+    }
+
+    .main-nav li a {
+        font-size: 11px;
+    }
+
+    .main-nav {
+        padding: 9px 0px;
+    }
+
+    .discover-your {
+        padding: 12px 27px;
+    }
+    .product_detail_wrap .row.products_list .product_item{
+        width: 33.33%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .login-section .login_title {
+        margin-bottom: 30px;
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .menu-icon {
+        display: block;
+        padding: 20px;
+    }
+    .woocommerce .brator-inline-product-filter-area .brator-inline-product-filter-right .brator-filter-short-by,
+    .woocommerce .brator-inline-product-filter-area .brator-inline-product-filter-left
+    {
+        width: 50%;
+    }
+    .woocommerce .brator-pagination-box.brator-product-pagination{
+        width: 100%;
+    }
+    .product_list_add_to_Cart .product_detail_wrap .price{
+        font-size: 25px;
+    }
+    .product_detail_wrap > .row > .col-md-3{
+        width: 35%;
+    }
+    .product_detail_wrap > .row > .col-md-9{
+        width: 65%;
+    }
+    .product_detail_wrap .row.products_list .product_item{
+        width: 50%;
+    }
+    
+    .login-section .logo{
+        margin-bottom: 50px;
+    }
+    .login-section .half, .half .container > .row{
+        height: unset !important;
+        min-height: unset !important;
+    }
+    .login-section .half .contents{
+        padding: 50px 0px;
+    }
+    
+    .login-section .half .bg {
+        display: none; }
+
+    .header-nav {
+        display: none;
+    }
+
+    .main-nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vehicle-category-title {
+        font-size: 36px;
+    }
+
+    .under-line {
+        margin-bottom: 0px;
+    }
+
+    .vehicle-content-title {
+        font-size: 27px;
+    }
+
+    .main-nav li {
+        padding: 10px;
+    }
+
+    .vehicle-trial-content-title {
+        font-size: 51px;
+    }
+
+    .rating-text p {
+        font-size: 13px;
+    }
+
+    .vehicle-content img{
+        width: inherit;
+    }
+
+    
+
+    .vehicle-content{
+        margin-bottom: 20px;
+    }
+
+    .accessories-button {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .social-icon li {
+        margin-right: 8px;
+    }
+
+    .rating-img .active {
+        font-size: 23px;
+        color: #ffcc33;
+    }
+    .rating-img i{
+        margin-right: 14px;
+        font-size: 23px;
+    }
+
+
+    .header-top {
+        padding: 15px 0px;
+    }
+
+    .brator-footer-top-area .elementor-column {
+        width: 100% !important;
+    }
+
+    .vehicle-products-1 {
+        margin-bottom: 0px;
+        display: block;
+    }
+
+    .vehicle-trial-content {
+        width: 100%;
+        padding: 20px;
+        margin-top: -15px;
+    }
+
+    .customer-name p {
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+
+    .social-icon{
+        justify-content: center;
+    }
+
+    .curved-image {
+        display: none;
+    }
+
+    .vehicle-trial-content {
+        position: initial;
+        height: auto;
+    }
+
+    .vehicle-text {
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+
+    iframe {
+        width: 100%;
+        height: 428px;
+    }
+
+    .hero-title-text h1 {
+        font-size: 51px;
+    }
+
+    .verticle-line {
+        display: none;
+    }
+
+    .login-dealer {
+        text-align: center;
+    }
+
+
+    .become-leader {
+        text-align: center;
+    }
+
+    .footer-icon {
+        margin-bottom: 30px;
+        display: block;
+        text-align: center;
+    }
+
+
+
+    .footer-icon-tag {
+        display: block;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .footer-menu {
+        margin-bottom: 30px;
+        display: block;
+        text-align: center;
+    }
+
+    .discover-your {
+        margin-bottom: 0px;
+    }
+
+    .accessories-title {
+        font-size: 36px;
+    }
+
+    .find-dealer {
+        padding-bottom: 60px;
+    }
+
+    .find-dealer .container {
+        padding: 0px 140px;
+    }
+
+    .bumper {
+        font-size: 27px;
+        top: 55%;
+    }
+
+    .doors {
+        font-size: 27px;
+        top: 55%;
+    }
+
+    .elementor-widget-container {
+        padding: 0px!important;
+    }
+
+    .vehicle-product {
+        padding: 56px 89px;
+    }
+
+    .accessories-button {
+        margin-top: 13px;
+    }
+
+    .elementor-top-section{
+        padding: 0px 140px;
+    }
+    
+    .brator-footer-area {
+        padding: 30px 10px;
+    
+    }
+    
+    .elementor-top-section .elementor-container{
+     justify-content: center;
+    }
+    
+    .elementor-1921 .elementor-element.elementor-element-9d48e20 {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    
+    .elementor-1921 .elementor-element.elementor-element-7cf42f4 {
+        width: 100%!important;
+        display: block;
+        text-align: center;
+    }
+    
+    .elementor-1921 .elementor-element.elementor-element-cb44c8c {
+        width: 100%!important;
+        display: block;
+        text-align: center;
+    }
+    
+    .elementor-1921 .elementor-element.elementor-element-a280455 {
+        width: 100%!important;
+        display: block;
+        text-align: center;
+    }
+
+    .brator-footer-top-area.design-two .brator-footer-top-element.brator-footer-top-address .brator-footer-top-content .brator-social-link.svg-link {
+        justify-content: center!important;
+    }
+
+    .deal {
+        font-size: 36px;
+    }
+
+    .accessoris-content {
+        padding: 70px 130px;
+    }
+
+   
+    .footer {
+        padding: 0px 140px;
+        padding-top: 80px;
+        padding-bottom: 0px;
+    
+}
+
+}
+
+
+@media screen and (max-width:798px) {
+    .vehicle-product {
+        padding: 40px 70px;
+    }
+
+    .vehicle-category-title {
+        font-size: 29px;
+    }
+
+    .vehicle-content-title {
+        font-size: 22px;
+    }
+
+    .vehicle-trial-content {
+        position: initial;
+        background-color: #000;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .doors {
+        top: 65%;
+
+    }
+
+    .mobile-accesories{
+        position: relative;
+    }
+
+    .accessories-img-mobile{
+        display: block;
+        position: relative;
+    }
+
+    .accessories-img{
+        display: none;
+    }
+
+     .accessories-img-mobile .accessories-img-bumpers{
+        position: relative;
+        margin-bottom: 20px;
+
+    }
+
+    .accessories-img-mobile .accessories-img-doors{
+        position: relative;
+    }
+
+    .vehicle-trial-content-title {
+        font-size: 41px;
+    }
+
+
+    .accessories-title {
+        font-size: 27px;
+    }
+
+    .verticle-line {
+        display: none;
+    }
+
+
+    .elementor-top-section .elementor-container{
+        display: block
+    
+    }
+    
+    .elementor-1921 .elementor-element.elementor-element-9d48e20 {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    
+    .elementor-1921 .elementor-element.elementor-element-7cf42f4 {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    
+    .elementor-1921 .elementor-element.elementor-element-cb44c8c {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    
+    .elementor-1921 .elementor-element.elementor-element-a280455 {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .find-dealer-content {
+        padding: 30px 20px;
+    }
+
+    .discover-your-button {
+        margin-bottom: 0px;
+    }
+
+    .accessoris-content {
+        padding: 50px 110px;
+    }
+
+    .hero-title-text h1 {
+        font-size: 41px;
+    }
+
+    
+
+    .find-dealer .container {
+        padding: 0px 120px;
+    }
+
+    .footer {
+        padding: 0px 110px;
+        padding-top: 60px;
+        padding-bottom: 0px;
+    }
+
+    
+    .rating-img .active {
+        font-size: 28px;
+        color: #ffcc33;
+    }
+    .rating-img i{
+        margin-right: 14px;
+        font-size: 28px;
+    }
+
+    .footer-icon {
+        display: block;
+        text-align: center;
+    }
+
+    .footer-icon-tag {
+        margin-bottom: 40px;
+    }
+
+    
+
+    .footer-menu {
+        display: block;
+        text-align: center;
+    }
+
+    .vehicle-content {
+        margin-bottom: 20px;
+    }
+
+    .footer-icon-tag {
+        display: block;
+        justify-content: center;
+    }
+
+    .play-icon {
+        position: absolute;
+        top: 20%;
+        left: 30%;
+    }
+
+    .vehicle-products-1 {
+        display: block;
+    }
+
+    .vehicle-products-2 {
+        display: block;
+    }
+
+    iframe {
+        width: 100%;
+        height: 346px;
+    }
+
+    .footer-bottom-icon {
+       display: block;
+    }
+
+     .elementor-widget-container {
+        padding: 0px!important;
+    }
+
+    .copyright-text{
+        text-align: center;
+    }
+
+    .brator-social-link{
+        justify-content: center!important;
+    }
+
+    
+.icon-payment {
+    justify-content: center;
+}
+
+    .login-dealer {
+        text-align: center;
+    }
+
+    .header-logo-img {
+        margin-bottom: 20px;
+    }
+
+    .become-leader {
+        text-align: center;
+    }
+
+    .login-buton {
+        float: none;
+    }
+
+}
+@media (min-width: 768px){
+    .container, .container-md, .container-sm {
+        max-width: 760px;
+    }
+}
+@media (min-width: 992px){
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 90%;
+}
+}
+@media (min-width: 1400px){
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 90%;
+}
+.brator-header-menu-area .brator-header-menu ul.list-style-outside-none li a {
+ 
+        font-size: 10px;
+    }
+}
+@media (min-width: 1600px){
+.container-xxxl {
+    max-width: 1520px;
+}
+}
+@media screen and (max-width:767px) {
+    .login-section .login_title{
+        font-size: 31px;
+    }
+    .woocommerce-shop #main,
+    .single-product #main
+    {
+        padding: 40px 0px
+    }
+    .product_detail_wrap > .row > .col-md-3{
+        width: 100%;
+    }
+    .product_detail_wrap > .row > .col-md-9{
+        width: 100%;
+    }
+    .login-section .logo{
+        width: 200px;
+    }
+    .product_detail_wrap {
+        padding: 40px 0px;
+    }
+    .product_categories_filter .f_title {
+        padding-top: 40px;
+    }    
+}
+@media screen and (max-width:576px) {
+    .vehicle-product {
+        padding: 40px 10px;
+    }
+
+    .accessoris-content {
+        padding: 50px 5px;
+    }
+
+    .find-dealer .container {
+        padding: 0px 10px;
+    }
+
+    .menu-icon {
+        display: block;
+        padding: 5px;
+    }
+
+    .header-logo-img {
+
+        text-align: center;
+    }
+
+    .vehicle-trial-content-title {
+        font-size: 30px;
+    }
+
+
+    .find-dealer-content {
+        padding: 30px 10px;
+    }
+
+    .main-nav {
+        padding: 9px 10px;
+    }
+
+    .find-deal {
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        padding: 50px 20px;
+    }
+
+    .footer-icon-tag {
+        display: block;
+        justify-content: center;
+    }
+
+    .bumper {
+        top: 65%;
+        font-size: 27px;
+    }
+
+    .hero-title {
+        display: none;
+    }
+
+    .hero-title-text h1 {
+        font-size: 30px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 247px;
+    }
+
+
+    .doors {
+        top: 65%;
+        font-size: 27px;
+    }
+
+    .brator-footer-top-area {
+        padding-bottom: 0px;
+    }
+    
+
+    .footer-menu ul {
+        padding: 0px;
+    }
+
+    .footer-bottom-icon {
+        display: block;
+        text-align: center;
+    }
+
+    .login-buton {
+        text-align: center;
+    }
+
+    .hero-content {
+        position: initial;
+        transform: none;
+        text-align: center;
+       
+    }
+
+    .brator-footer-area {
+        padding: 30px 20px;
+    }
+
+    .play-icon {
+        position: absolute;
+        top: 10%;
+        left: 30%;
+    }
+
+    .find-deal:hover {
+        background-color: transparent;
+    border: 1px solid #d7291c;
+    color: #d7291c;
+
+    }
+
+    .elementor-top-section {
+        padding: 0px 20px;
+    }
+
+    .contact-us:hover {
+        color: #d7291c;
+        border: 1px solid #d7291c;
+        background-color: transparent;
+    }
+
+}
+@media screen and (max-width:580px) {
+    .brator-pagination-box {
+        margin-bottom: 0px;
+    }
+}
+@media screen and (max-width:480px) {
+
+    .hero-title-text h1 {
+        font-size: 25px;
+    }
+    .product_detail_wrap .row.products_list .product_item{
+        width: 50%;
+    }
+    .woocommerce .brator-inline-product-filter-area .brator-inline-product-filter-right .brator-filter-short-by,
+    .woocommerce .brator-inline-product-filter-area .brator-inline-product-filter-left,
+    .woocommerce .brator-pagination-box.brator-product-pagination{
+        width: 100%;
+    }
+    
+    .brator-inline-product-filter-area .brator-inline-product-filter-left .brator-filter-show-result p{
+        padding-left: 0px;
+    }
+}
